@@ -6135,7 +6135,9 @@ POTTED_FLOWERING_AZALEA_BUSH:
   rarity: 0
 PROFILE_VIEWER:
   name: Profile Viewer
-  lore: Right click to view your profile. You can also do /pf or /profile.
+  lore:
+    - §bRight click §7to view your profile.
+    - You can also do §b/pf §7or §b/profile§7.
   material: PLAYER_HEAD
   value: 0
   currency: 0
