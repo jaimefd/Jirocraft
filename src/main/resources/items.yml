@@ -1,0 +1,6135 @@
+STONE:
+  material: STONE
+  value: 0
+  currency: 0
+  rarity: 0
+GRANITE:
+  material: GRANITE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_GRANITE:
+  material: POLISHED_GRANITE
+  value: 0
+  currency: 0
+  rarity: 0
+DIORITE:
+  material: DIORITE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_DIORITE:
+  material: POLISHED_DIORITE
+  value: 0
+  currency: 0
+  rarity: 0
+ANDESITE:
+  material: ANDESITE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_ANDESITE:
+  material: POLISHED_ANDESITE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE:
+  material: DEEPSLATE
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLED_DEEPSLATE:
+  material: COBBLED_DEEPSLATE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_DEEPSLATE:
+  material: POLISHED_DEEPSLATE
+  value: 0
+  currency: 0
+  rarity: 0
+CALCITE:
+  material: CALCITE
+  value: 0
+  currency: 0
+  rarity: 0
+TUFF:
+  material: TUFF
+  value: 0
+  currency: 0
+  rarity: 0
+DRIPSTONE_BLOCK:
+  material: DRIPSTONE_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+GRASS_BLOCK:
+  material: GRASS_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+DIRT:
+  material: DIRT
+  value: 0
+  currency: 0
+  rarity: 0
+COARSE_DIRT:
+  material: COARSE_DIRT
+  value: 0
+  currency: 0
+  rarity: 0
+PODZOL:
+  material: PODZOL
+  value: 0
+  currency: 0
+  rarity: 0
+ROOTED_DIRT:
+  material: ROOTED_DIRT
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_NYLIUM:
+  material: CRIMSON_NYLIUM
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_NYLIUM:
+  material: WARPED_NYLIUM
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLESTONE:
+  material: COBBLESTONE
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_PLANKS:
+  material: OAK_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_PLANKS:
+  material: SPRUCE_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_PLANKS:
+  material: BIRCH_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_PLANKS:
+  material: JUNGLE_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_PLANKS:
+  material: ACACIA_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_PLANKS:
+  material: DARK_OAK_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_PLANKS:
+  material: CRIMSON_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_PLANKS:
+  material: WARPED_PLANKS
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_SAPLING:
+  material: OAK_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_SAPLING:
+  material: SPRUCE_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_SAPLING:
+  material: BIRCH_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_SAPLING:
+  material: JUNGLE_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_SAPLING:
+  material: ACACIA_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_SAPLING:
+  material: DARK_OAK_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+BEDROCK:
+  material: BEDROCK
+  value: 0
+  currency: 0
+  rarity: 0
+SAND:
+  material: SAND
+  value: 0
+  currency: 0
+  rarity: 0
+RED_SAND:
+  material: RED_SAND
+  value: 0
+  currency: 0
+  rarity: 0
+GRAVEL:
+  material: GRAVEL
+  value: 0
+  currency: 0
+  rarity: 0
+COAL_ORE:
+  material: COAL_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_COAL_ORE:
+  material: DEEPSLATE_COAL_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_ORE:
+  material: IRON_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_IRON_ORE:
+  material: DEEPSLATE_IRON_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+COPPER_ORE:
+  material: COPPER_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_COPPER_ORE:
+  material: DEEPSLATE_COPPER_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+GOLD_ORE:
+  material: GOLD_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_GOLD_ORE:
+  material: DEEPSLATE_GOLD_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+REDSTONE_ORE:
+  material: REDSTONE_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_REDSTONE_ORE:
+  material: DEEPSLATE_REDSTONE_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+EMERALD_ORE:
+  material: EMERALD_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_EMERALD_ORE:
+  material: DEEPSLATE_EMERALD_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+LAPIS_ORE:
+  material: LAPIS_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_LAPIS_ORE:
+  material: DEEPSLATE_LAPIS_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_ORE:
+  material: DIAMOND_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_DIAMOND_ORE:
+  material: DEEPSLATE_DIAMOND_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_GOLD_ORE:
+  material: NETHER_GOLD_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_QUARTZ_ORE:
+  material: NETHER_QUARTZ_ORE
+  value: 0
+  currency: 0
+  rarity: 0
+ANCIENT_DEBRIS:
+  material: ANCIENT_DEBRIS
+  value: 0
+  currency: 0
+  rarity: 0
+COAL_BLOCK:
+  material: COAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+RAW_IRON_BLOCK:
+  material: RAW_IRON_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+RAW_COPPER_BLOCK:
+  material: RAW_COPPER_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+RAW_GOLD_BLOCK:
+  material: RAW_GOLD_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+AMETHYST_BLOCK:
+  material: AMETHYST_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+BUDDING_AMETHYST:
+  material: BUDDING_AMETHYST
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_BLOCK:
+  material: IRON_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+COPPER_BLOCK:
+  material: COPPER_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+GOLD_BLOCK:
+  material: GOLD_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_BLOCK:
+  material: DIAMOND_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_BLOCK:
+  material: NETHERITE_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+EXPOSED_COPPER:
+  material: EXPOSED_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WEATHERED_COPPER:
+  material: WEATHERED_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+OXIDIZED_COPPER:
+  material: OXIDIZED_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+CUT_COPPER:
+  material: CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+EXPOSED_CUT_COPPER:
+  material: EXPOSED_CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WEATHERED_CUT_COPPER:
+  material: WEATHERED_CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+OXIDIZED_CUT_COPPER:
+  material: OXIDIZED_CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+CUT_COPPER_STAIRS:
+  material: CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+EXPOSED_CUT_COPPER_STAIRS:
+  material: EXPOSED_CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+WEATHERED_CUT_COPPER_STAIRS:
+  material: WEATHERED_CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+OXIDIZED_CUT_COPPER_STAIRS:
+  material: OXIDIZED_CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+CUT_COPPER_SLAB:
+  material: CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+EXPOSED_CUT_COPPER_SLAB:
+  material: EXPOSED_CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+WEATHERED_CUT_COPPER_SLAB:
+  material: WEATHERED_CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+OXIDIZED_CUT_COPPER_SLAB:
+  material: OXIDIZED_CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_COPPER_BLOCK:
+  material: WAXED_COPPER_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_EXPOSED_COPPER:
+  material: WAXED_EXPOSED_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_WEATHERED_COPPER:
+  material: WAXED_WEATHERED_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_OXIDIZED_COPPER:
+  material: WAXED_OXIDIZED_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_CUT_COPPER:
+  material: WAXED_CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_EXPOSED_CUT_COPPER:
+  material: WAXED_EXPOSED_CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_WEATHERED_CUT_COPPER:
+  material: WAXED_WEATHERED_CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_OXIDIZED_CUT_COPPER:
+  material: WAXED_OXIDIZED_CUT_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_CUT_COPPER_STAIRS:
+  material: WAXED_CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_EXPOSED_CUT_COPPER_STAIRS:
+  material: WAXED_EXPOSED_CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_WEATHERED_CUT_COPPER_STAIRS:
+  material: WAXED_WEATHERED_CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_OXIDIZED_CUT_COPPER_STAIRS:
+  material: WAXED_OXIDIZED_CUT_COPPER_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_CUT_COPPER_SLAB:
+  material: WAXED_CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_EXPOSED_CUT_COPPER_SLAB:
+  material: WAXED_EXPOSED_CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_WEATHERED_CUT_COPPER_SLAB:
+  material: WAXED_WEATHERED_CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+WAXED_OXIDIZED_CUT_COPPER_SLAB:
+  material: WAXED_OXIDIZED_CUT_COPPER_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_LOG:
+  material: OAK_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_LOG:
+  material: SPRUCE_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_LOG:
+  material: BIRCH_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_LOG:
+  material: JUNGLE_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_LOG:
+  material: ACACIA_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_LOG:
+  material: DARK_OAK_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_STEM:
+  material: CRIMSON_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_STEM:
+  material: WARPED_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_OAK_LOG:
+  material: STRIPPED_OAK_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_SPRUCE_LOG:
+  material: STRIPPED_SPRUCE_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_BIRCH_LOG:
+  material: STRIPPED_BIRCH_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_JUNGLE_LOG:
+  material: STRIPPED_JUNGLE_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_ACACIA_LOG:
+  material: STRIPPED_ACACIA_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_DARK_OAK_LOG:
+  material: STRIPPED_DARK_OAK_LOG
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_CRIMSON_STEM:
+  material: STRIPPED_CRIMSON_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_WARPED_STEM:
+  material: STRIPPED_WARPED_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_OAK_WOOD:
+  material: STRIPPED_OAK_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_SPRUCE_WOOD:
+  material: STRIPPED_SPRUCE_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_BIRCH_WOOD:
+  material: STRIPPED_BIRCH_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_JUNGLE_WOOD:
+  material: STRIPPED_JUNGLE_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_ACACIA_WOOD:
+  material: STRIPPED_ACACIA_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_DARK_OAK_WOOD:
+  material: STRIPPED_DARK_OAK_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_CRIMSON_HYPHAE:
+  material: STRIPPED_CRIMSON_HYPHAE
+  value: 0
+  currency: 0
+  rarity: 0
+STRIPPED_WARPED_HYPHAE:
+  material: STRIPPED_WARPED_HYPHAE
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_WOOD:
+  material: OAK_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_WOOD:
+  material: SPRUCE_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_WOOD:
+  material: BIRCH_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_WOOD:
+  material: JUNGLE_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_WOOD:
+  material: ACACIA_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_WOOD:
+  material: DARK_OAK_WOOD
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_HYPHAE:
+  material: CRIMSON_HYPHAE
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_HYPHAE:
+  material: WARPED_HYPHAE
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_LEAVES:
+  material: OAK_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_LEAVES:
+  material: SPRUCE_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_LEAVES:
+  material: BIRCH_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_LEAVES:
+  material: JUNGLE_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_LEAVES:
+  material: ACACIA_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_LEAVES:
+  material: DARK_OAK_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+AZALEA_LEAVES:
+  material: AZALEA_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+FLOWERING_AZALEA_LEAVES:
+  material: FLOWERING_AZALEA_LEAVES
+  value: 0
+  currency: 0
+  rarity: 0
+SPONGE:
+  material: SPONGE
+  value: 0
+  currency: 0
+  rarity: 0
+WET_SPONGE:
+  material: WET_SPONGE
+  value: 0
+  currency: 0
+  rarity: 0
+GLASS:
+  material: GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+TINTED_GLASS:
+  material: TINTED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+LAPIS_BLOCK:
+  material: LAPIS_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+SANDSTONE:
+  material: SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+CHISELED_SANDSTONE:
+  material: CHISELED_SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+CUT_SANDSTONE:
+  material: CUT_SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+COBWEB:
+  material: COBWEB
+  value: 0
+  currency: 0
+  rarity: 0
+GRASS:
+  material: GRASS
+  value: 0
+  currency: 0
+  rarity: 0
+FERN:
+  material: FERN
+  value: 0
+  currency: 0
+  rarity: 0
+AZALEA:
+  material: AZALEA
+  value: 0
+  currency: 0
+  rarity: 0
+FLOWERING_AZALEA:
+  material: FLOWERING_AZALEA
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BUSH:
+  material: DEAD_BUSH
+  value: 0
+  currency: 0
+  rarity: 0
+SEAGRASS:
+  material: SEAGRASS
+  value: 0
+  currency: 0
+  rarity: 0
+SEA_PICKLE:
+  material: SEA_PICKLE
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_WOOL:
+  material: WHITE_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_WOOL:
+  material: ORANGE_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_WOOL:
+  material: MAGENTA_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_WOOL:
+  material: LIGHT_BLUE_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_WOOL:
+  material: YELLOW_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_WOOL:
+  material: LIME_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_WOOL:
+  material: PINK_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_WOOL:
+  material: GRAY_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_WOOL:
+  material: LIGHT_GRAY_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_WOOL:
+  material: CYAN_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_WOOL:
+  material: PURPLE_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_WOOL:
+  material: BLUE_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_WOOL:
+  material: BROWN_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_WOOL:
+  material: GREEN_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+RED_WOOL:
+  material: RED_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_WOOL:
+  material: BLACK_WOOL
+  value: 0
+  currency: 0
+  rarity: 0
+DANDELION:
+  material: DANDELION
+  value: 0
+  currency: 0
+  rarity: 0
+POPPY:
+  material: POPPY
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_ORCHID:
+  material: BLUE_ORCHID
+  value: 0
+  currency: 0
+  rarity: 0
+ALLIUM:
+  material: ALLIUM
+  value: 0
+  currency: 0
+  rarity: 0
+AZURE_BLUET:
+  material: AZURE_BLUET
+  value: 0
+  currency: 0
+  rarity: 0
+RED_TULIP:
+  material: RED_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_TULIP:
+  material: ORANGE_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_TULIP:
+  material: WHITE_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_TULIP:
+  material: PINK_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+OXEYE_DAISY:
+  material: OXEYE_DAISY
+  value: 0
+  currency: 0
+  rarity: 0
+CORNFLOWER:
+  material: CORNFLOWER
+  value: 0
+  currency: 0
+  rarity: 0
+LILY_OF_THE_VALLEY:
+  material: LILY_OF_THE_VALLEY
+  value: 0
+  currency: 0
+  rarity: 0
+WITHER_ROSE:
+  material: WITHER_ROSE
+  value: 0
+  currency: 0
+  rarity: 0
+SPORE_BLOSSOM:
+  material: SPORE_BLOSSOM
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_MUSHROOM:
+  material: BROWN_MUSHROOM
+  value: 0
+  currency: 0
+  rarity: 0
+RED_MUSHROOM:
+  material: RED_MUSHROOM
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_FUNGUS:
+  material: CRIMSON_FUNGUS
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_FUNGUS:
+  material: WARPED_FUNGUS
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_ROOTS:
+  material: CRIMSON_ROOTS
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_ROOTS:
+  material: WARPED_ROOTS
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_SPROUTS:
+  material: NETHER_SPROUTS
+  value: 0
+  currency: 0
+  rarity: 0
+WEEPING_VINES:
+  material: WEEPING_VINES
+  value: 0
+  currency: 0
+  rarity: 0
+TWISTING_VINES:
+  material: TWISTING_VINES
+  value: 0
+  currency: 0
+  rarity: 0
+SUGAR_CANE:
+  material: SUGAR_CANE
+  value: 0
+  currency: 0
+  rarity: 0
+KELP:
+  material: KELP
+  value: 0
+  currency: 0
+  rarity: 0
+MOSS_CARPET:
+  material: MOSS_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+MOSS_BLOCK:
+  material: MOSS_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+HANGING_ROOTS:
+  material: HANGING_ROOTS
+  value: 0
+  currency: 0
+  rarity: 0
+BIG_DRIPLEAF:
+  material: BIG_DRIPLEAF
+  value: 0
+  currency: 0
+  rarity: 0
+SMALL_DRIPLEAF:
+  material: SMALL_DRIPLEAF
+  value: 0
+  currency: 0
+  rarity: 0
+BAMBOO:
+  material: BAMBOO
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_SLAB:
+  material: OAK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_SLAB:
+  material: SPRUCE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_SLAB:
+  material: BIRCH_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_SLAB:
+  material: JUNGLE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_SLAB:
+  material: ACACIA_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_SLAB:
+  material: DARK_OAK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_SLAB:
+  material: CRIMSON_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_SLAB:
+  material: WARPED_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_SLAB:
+  material: STONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_STONE_SLAB:
+  material: SMOOTH_STONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SANDSTONE_SLAB:
+  material: SANDSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+CUT_SANDSTONE_SLAB:
+  material: CUT_SANDSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+PETRIFIED_OAK_SLAB:
+  material: PETRIFIED_OAK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLESTONE_SLAB:
+  material: COBBLESTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+BRICK_SLAB:
+  material: BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_BRICK_SLAB:
+  material: STONE_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_BRICK_SLAB:
+  material: NETHER_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+QUARTZ_SLAB:
+  material: QUARTZ_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+RED_SANDSTONE_SLAB:
+  material: RED_SANDSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+CUT_RED_SANDSTONE_SLAB:
+  material: CUT_RED_SANDSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+PURPUR_SLAB:
+  material: PURPUR_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_SLAB:
+  material: PRISMARINE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_BRICK_SLAB:
+  material: PRISMARINE_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_PRISMARINE_SLAB:
+  material: DARK_PRISMARINE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_QUARTZ:
+  material: SMOOTH_QUARTZ
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_RED_SANDSTONE:
+  material: SMOOTH_RED_SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_SANDSTONE:
+  material: SMOOTH_SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_STONE:
+  material: SMOOTH_STONE
+  value: 0
+  currency: 0
+  rarity: 0
+BRICKS:
+  material: BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+BOOKSHELF:
+  material: BOOKSHELF
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_COBBLESTONE:
+  material: MOSSY_COBBLESTONE
+  value: 0
+  currency: 0
+  rarity: 0
+OBSIDIAN:
+  material: OBSIDIAN
+  value: 0
+  currency: 0
+  rarity: 0
+TORCH:
+  material: TORCH
+  value: 0
+  currency: 0
+  rarity: 0
+END_ROD:
+  material: END_ROD
+  value: 0
+  currency: 0
+  rarity: 0
+CHORUS_PLANT:
+  material: CHORUS_PLANT
+  value: 0
+  currency: 0
+  rarity: 0
+CHORUS_FLOWER:
+  material: CHORUS_FLOWER
+  value: 0
+  currency: 0
+  rarity: 0
+PURPUR_BLOCK:
+  material: PURPUR_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+PURPUR_PILLAR:
+  material: PURPUR_PILLAR
+  value: 0
+  currency: 0
+  rarity: 0
+PURPUR_STAIRS:
+  material: PURPUR_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+SPAWNER:
+  material: SPAWNER
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_STAIRS:
+  material: OAK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+CHEST:
+  material: CHEST
+  value: 0
+  currency: 0
+  rarity: 0
+CRAFTING_TABLE:
+  material: CRAFTING_TABLE
+  value: 0
+  currency: 0
+  rarity: 0
+FARMLAND:
+  material: FARMLAND
+  value: 0
+  currency: 0
+  rarity: 0
+FURNACE:
+  material: FURNACE
+  value: 0
+  currency: 0
+  rarity: 0
+LADDER:
+  material: LADDER
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLESTONE_STAIRS:
+  material: COBBLESTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+SNOW:
+  material: SNOW
+  value: 0
+  currency: 0
+  rarity: 0
+ICE:
+  material: ICE
+  value: 0
+  currency: 0
+  rarity: 0
+SNOW_BLOCK:
+  material: SNOW_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+CACTUS:
+  material: CACTUS
+  value: 0
+  currency: 0
+  rarity: 0
+CLAY:
+  material: CLAY
+  value: 0
+  currency: 0
+  rarity: 0
+JUKEBOX:
+  material: JUKEBOX
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_FENCE:
+  material: OAK_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_FENCE:
+  material: SPRUCE_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_FENCE:
+  material: BIRCH_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_FENCE:
+  material: JUNGLE_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_FENCE:
+  material: ACACIA_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_FENCE:
+  material: DARK_OAK_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_FENCE:
+  material: CRIMSON_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_FENCE:
+  material: WARPED_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+PUMPKIN:
+  material: PUMPKIN
+  value: 0
+  currency: 0
+  rarity: 0
+CARVED_PUMPKIN:
+  material: CARVED_PUMPKIN
+  value: 0
+  currency: 0
+  rarity: 0
+JACK_O_LANTERN:
+  material: JACK_O_LANTERN
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERRACK:
+  material: NETHERRACK
+  value: 0
+  currency: 0
+  rarity: 0
+SOUL_SAND:
+  material: SOUL_SAND
+  value: 0
+  currency: 0
+  rarity: 0
+SOUL_SOIL:
+  material: SOUL_SOIL
+  value: 0
+  currency: 0
+  rarity: 0
+BASALT:
+  material: BASALT
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BASALT:
+  material: POLISHED_BASALT
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_BASALT:
+  material: SMOOTH_BASALT
+  value: 0
+  currency: 0
+  rarity: 0
+SOUL_TORCH:
+  material: SOUL_TORCH
+  value: 0
+  currency: 0
+  rarity: 0
+GLOWSTONE:
+  material: GLOWSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+INFESTED_STONE:
+  material: INFESTED_STONE
+  value: 0
+  currency: 0
+  rarity: 0
+INFESTED_COBBLESTONE:
+  material: INFESTED_COBBLESTONE
+  value: 0
+  currency: 0
+  rarity: 0
+INFESTED_STONE_BRICKS:
+  material: INFESTED_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+INFESTED_MOSSY_STONE_BRICKS:
+  material: INFESTED_MOSSY_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+INFESTED_CRACKED_STONE_BRICKS:
+  material: INFESTED_CRACKED_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+INFESTED_CHISELED_STONE_BRICKS:
+  material: INFESTED_CHISELED_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+INFESTED_DEEPSLATE:
+  material: INFESTED_DEEPSLATE
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_BRICKS:
+  material: STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_STONE_BRICKS:
+  material: MOSSY_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+CRACKED_STONE_BRICKS:
+  material: CRACKED_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+CHISELED_STONE_BRICKS:
+  material: CHISELED_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_BRICKS:
+  material: DEEPSLATE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+CRACKED_DEEPSLATE_BRICKS:
+  material: CRACKED_DEEPSLATE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_TILES:
+  material: DEEPSLATE_TILES
+  value: 0
+  currency: 0
+  rarity: 0
+CRACKED_DEEPSLATE_TILES:
+  material: CRACKED_DEEPSLATE_TILES
+  value: 0
+  currency: 0
+  rarity: 0
+CHISELED_DEEPSLATE:
+  material: CHISELED_DEEPSLATE
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_MUSHROOM_BLOCK:
+  material: BROWN_MUSHROOM_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+RED_MUSHROOM_BLOCK:
+  material: RED_MUSHROOM_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+MUSHROOM_STEM:
+  material: MUSHROOM_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_BARS:
+  material: IRON_BARS
+  value: 0
+  currency: 0
+  rarity: 0
+CHAIN:
+  material: CHAIN
+  value: 0
+  currency: 0
+  rarity: 0
+GLASS_PANE:
+  material: GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+MELON:
+  material: MELON
+  value: 0
+  currency: 0
+  rarity: 0
+VINE:
+  material: VINE
+  value: 0
+  currency: 0
+  rarity: 0
+GLOW_LICHEN:
+  material: GLOW_LICHEN
+  value: 0
+  currency: 0
+  rarity: 0
+BRICK_STAIRS:
+  material: BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_BRICK_STAIRS:
+  material: STONE_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+MYCELIUM:
+  material: MYCELIUM
+  value: 0
+  currency: 0
+  rarity: 0
+LILY_PAD:
+  material: LILY_PAD
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_BRICKS:
+  material: NETHER_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+CRACKED_NETHER_BRICKS:
+  material: CRACKED_NETHER_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+CHISELED_NETHER_BRICKS:
+  material: CHISELED_NETHER_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_BRICK_FENCE:
+  material: NETHER_BRICK_FENCE
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_BRICK_STAIRS:
+  material: NETHER_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+ENCHANTING_TABLE:
+  material: ENCHANTING_TABLE
+  value: 0
+  currency: 0
+  rarity: 0
+END_PORTAL_FRAME:
+  material: END_PORTAL_FRAME
+  value: 0
+  currency: 0
+  rarity: 0
+END_STONE:
+  material: END_STONE
+  value: 0
+  currency: 0
+  rarity: 0
+END_STONE_BRICKS:
+  material: END_STONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+DRAGON_EGG:
+  material: DRAGON_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SANDSTONE_STAIRS:
+  material: SANDSTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+ENDER_CHEST:
+  material: ENDER_CHEST
+  value: 0
+  currency: 0
+  rarity: 0
+EMERALD_BLOCK:
+  material: EMERALD_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_STAIRS:
+  material: SPRUCE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_STAIRS:
+  material: BIRCH_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_STAIRS:
+  material: JUNGLE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_STAIRS:
+  material: CRIMSON_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_STAIRS:
+  material: WARPED_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+COMMAND_BLOCK:
+  material: COMMAND_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+BEACON:
+  material: BEACON
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLESTONE_WALL:
+  material: COBBLESTONE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_COBBLESTONE_WALL:
+  material: MOSSY_COBBLESTONE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+BRICK_WALL:
+  material: BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_WALL:
+  material: PRISMARINE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+RED_SANDSTONE_WALL:
+  material: RED_SANDSTONE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_STONE_BRICK_WALL:
+  material: MOSSY_STONE_BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+GRANITE_WALL:
+  material: GRANITE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_BRICK_WALL:
+  material: STONE_BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_BRICK_WALL:
+  material: NETHER_BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+ANDESITE_WALL:
+  material: ANDESITE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+RED_NETHER_BRICK_WALL:
+  material: RED_NETHER_BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+SANDSTONE_WALL:
+  material: SANDSTONE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+END_STONE_BRICK_WALL:
+  material: END_STONE_BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+DIORITE_WALL:
+  material: DIORITE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+BLACKSTONE_WALL:
+  material: BLACKSTONE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_WALL:
+  material: POLISHED_BLACKSTONE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_BRICK_WALL:
+  material: POLISHED_BLACKSTONE_BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLED_DEEPSLATE_WALL:
+  material: COBBLED_DEEPSLATE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_DEEPSLATE_WALL:
+  material: POLISHED_DEEPSLATE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_BRICK_WALL:
+  material: DEEPSLATE_BRICK_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_TILE_WALL:
+  material: DEEPSLATE_TILE_WALL
+  value: 0
+  currency: 0
+  rarity: 0
+ANVIL:
+  material: ANVIL
+  value: 0
+  currency: 0
+  rarity: 0
+CHIPPED_ANVIL:
+  material: CHIPPED_ANVIL
+  value: 0
+  currency: 0
+  rarity: 0
+DAMAGED_ANVIL:
+  material: DAMAGED_ANVIL
+  value: 0
+  currency: 0
+  rarity: 0
+CHISELED_QUARTZ_BLOCK:
+  material: CHISELED_QUARTZ_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+QUARTZ_BLOCK:
+  material: QUARTZ_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+QUARTZ_BRICKS:
+  material: QUARTZ_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+QUARTZ_PILLAR:
+  material: QUARTZ_PILLAR
+  value: 0
+  currency: 0
+  rarity: 0
+QUARTZ_STAIRS:
+  material: QUARTZ_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_TERRACOTTA:
+  material: WHITE_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_TERRACOTTA:
+  material: ORANGE_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_TERRACOTTA:
+  material: MAGENTA_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_TERRACOTTA:
+  material: LIGHT_BLUE_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_TERRACOTTA:
+  material: YELLOW_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_TERRACOTTA:
+  material: LIME_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_TERRACOTTA:
+  material: PINK_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_TERRACOTTA:
+  material: GRAY_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_TERRACOTTA:
+  material: LIGHT_GRAY_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_TERRACOTTA:
+  material: CYAN_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_TERRACOTTA:
+  material: PURPLE_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_TERRACOTTA:
+  material: BLUE_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_TERRACOTTA:
+  material: BROWN_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_TERRACOTTA:
+  material: GREEN_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+RED_TERRACOTTA:
+  material: RED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_TERRACOTTA:
+  material: BLACK_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+BARRIER:
+  material: BARRIER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT:
+  material: LIGHT
+  value: 0
+  currency: 0
+  rarity: 0
+HAY_BLOCK:
+  material: HAY_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_CARPET:
+  material: WHITE_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_CARPET:
+  material: ORANGE_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_CARPET:
+  material: MAGENTA_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_CARPET:
+  material: LIGHT_BLUE_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_CARPET:
+  material: YELLOW_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_CARPET:
+  material: LIME_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_CARPET:
+  material: PINK_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_CARPET:
+  material: GRAY_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_CARPET:
+  material: LIGHT_GRAY_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_CARPET:
+  material: CYAN_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_CARPET:
+  material: PURPLE_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_CARPET:
+  material: BLUE_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_CARPET:
+  material: BROWN_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_CARPET:
+  material: GREEN_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+RED_CARPET:
+  material: RED_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_CARPET:
+  material: BLACK_CARPET
+  value: 0
+  currency: 0
+  rarity: 0
+TERRACOTTA:
+  material: TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+PACKED_ICE:
+  material: PACKED_ICE
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_STAIRS:
+  material: ACACIA_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_STAIRS:
+  material: DARK_OAK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+DIRT_PATH:
+  material: DIRT_PATH
+  value: 0
+  currency: 0
+  rarity: 0
+SUNFLOWER:
+  material: SUNFLOWER
+  value: 0
+  currency: 0
+  rarity: 0
+LILAC:
+  material: LILAC
+  value: 0
+  currency: 0
+  rarity: 0
+ROSE_BUSH:
+  material: ROSE_BUSH
+  value: 0
+  currency: 0
+  rarity: 0
+PEONY:
+  material: PEONY
+  value: 0
+  currency: 0
+  rarity: 0
+TALL_GRASS:
+  material: TALL_GRASS
+  value: 0
+  currency: 0
+  rarity: 0
+LARGE_FERN:
+  material: LARGE_FERN
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_STAINED_GLASS:
+  material: WHITE_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_STAINED_GLASS:
+  material: ORANGE_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_STAINED_GLASS:
+  material: MAGENTA_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_STAINED_GLASS:
+  material: LIGHT_BLUE_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_STAINED_GLASS:
+  material: YELLOW_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_STAINED_GLASS:
+  material: LIME_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_STAINED_GLASS:
+  material: PINK_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_STAINED_GLASS:
+  material: GRAY_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_STAINED_GLASS:
+  material: LIGHT_GRAY_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_STAINED_GLASS:
+  material: CYAN_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_STAINED_GLASS:
+  material: PURPLE_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_STAINED_GLASS:
+  material: BLUE_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_STAINED_GLASS:
+  material: BROWN_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_STAINED_GLASS:
+  material: GREEN_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+RED_STAINED_GLASS:
+  material: RED_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_STAINED_GLASS:
+  material: BLACK_STAINED_GLASS
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_STAINED_GLASS_PANE:
+  material: WHITE_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_STAINED_GLASS_PANE:
+  material: ORANGE_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_STAINED_GLASS_PANE:
+  material: MAGENTA_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_STAINED_GLASS_PANE:
+  material: LIGHT_BLUE_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_STAINED_GLASS_PANE:
+  material: YELLOW_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_STAINED_GLASS_PANE:
+  material: LIME_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_STAINED_GLASS_PANE:
+  material: PINK_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_STAINED_GLASS_PANE:
+  material: GRAY_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_STAINED_GLASS_PANE:
+  material: LIGHT_GRAY_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_STAINED_GLASS_PANE:
+  material: CYAN_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_STAINED_GLASS_PANE:
+  material: PURPLE_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_STAINED_GLASS_PANE:
+  material: BLUE_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_STAINED_GLASS_PANE:
+  material: BROWN_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_STAINED_GLASS_PANE:
+  material: GREEN_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+RED_STAINED_GLASS_PANE:
+  material: RED_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_STAINED_GLASS_PANE:
+  material: BLACK_STAINED_GLASS_PANE
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE:
+  material: PRISMARINE
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_BRICKS:
+  material: PRISMARINE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_PRISMARINE:
+  material: DARK_PRISMARINE
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_STAIRS:
+  material: PRISMARINE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_BRICK_STAIRS:
+  material: PRISMARINE_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_PRISMARINE_STAIRS:
+  material: DARK_PRISMARINE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+SEA_LANTERN:
+  material: SEA_LANTERN
+  value: 0
+  currency: 0
+  rarity: 0
+RED_SANDSTONE:
+  material: RED_SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+CHISELED_RED_SANDSTONE:
+  material: CHISELED_RED_SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+CUT_RED_SANDSTONE:
+  material: CUT_RED_SANDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+RED_SANDSTONE_STAIRS:
+  material: RED_SANDSTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+REPEATING_COMMAND_BLOCK:
+  material: REPEATING_COMMAND_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+CHAIN_COMMAND_BLOCK:
+  material: CHAIN_COMMAND_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+MAGMA_BLOCK:
+  material: MAGMA_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_WART_BLOCK:
+  material: NETHER_WART_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_WART_BLOCK:
+  material: WARPED_WART_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+RED_NETHER_BRICKS:
+  material: RED_NETHER_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+BONE_BLOCK:
+  material: BONE_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+STRUCTURE_VOID:
+  material: STRUCTURE_VOID
+  value: 0
+  currency: 0
+  rarity: 0
+SHULKER_BOX:
+  material: SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_SHULKER_BOX:
+  material: WHITE_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_SHULKER_BOX:
+  material: ORANGE_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_SHULKER_BOX:
+  material: MAGENTA_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_SHULKER_BOX:
+  material: LIGHT_BLUE_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_SHULKER_BOX:
+  material: YELLOW_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_SHULKER_BOX:
+  material: LIME_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_SHULKER_BOX:
+  material: PINK_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_SHULKER_BOX:
+  material: GRAY_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_SHULKER_BOX:
+  material: LIGHT_GRAY_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_SHULKER_BOX:
+  material: CYAN_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_SHULKER_BOX:
+  material: PURPLE_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_SHULKER_BOX:
+  material: BLUE_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_SHULKER_BOX:
+  material: BROWN_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_SHULKER_BOX:
+  material: GREEN_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+RED_SHULKER_BOX:
+  material: RED_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_SHULKER_BOX:
+  material: BLACK_SHULKER_BOX
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_GLAZED_TERRACOTTA:
+  material: WHITE_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_GLAZED_TERRACOTTA:
+  material: ORANGE_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_GLAZED_TERRACOTTA:
+  material: MAGENTA_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_GLAZED_TERRACOTTA:
+  material: LIGHT_BLUE_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_GLAZED_TERRACOTTA:
+  material: YELLOW_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_GLAZED_TERRACOTTA:
+  material: LIME_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_GLAZED_TERRACOTTA:
+  material: PINK_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_GLAZED_TERRACOTTA:
+  material: GRAY_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_GLAZED_TERRACOTTA:
+  material: LIGHT_GRAY_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_GLAZED_TERRACOTTA:
+  material: CYAN_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_GLAZED_TERRACOTTA:
+  material: PURPLE_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_GLAZED_TERRACOTTA:
+  material: BLUE_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_GLAZED_TERRACOTTA:
+  material: BROWN_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_GLAZED_TERRACOTTA:
+  material: GREEN_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+RED_GLAZED_TERRACOTTA:
+  material: RED_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_GLAZED_TERRACOTTA:
+  material: BLACK_GLAZED_TERRACOTTA
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_CONCRETE:
+  material: WHITE_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_CONCRETE:
+  material: ORANGE_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_CONCRETE:
+  material: MAGENTA_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_CONCRETE:
+  material: LIGHT_BLUE_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_CONCRETE:
+  material: YELLOW_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_CONCRETE:
+  material: LIME_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_CONCRETE:
+  material: PINK_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_CONCRETE:
+  material: GRAY_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_CONCRETE:
+  material: LIGHT_GRAY_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_CONCRETE:
+  material: CYAN_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_CONCRETE:
+  material: PURPLE_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_CONCRETE:
+  material: BLUE_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_CONCRETE:
+  material: BROWN_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_CONCRETE:
+  material: GREEN_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+RED_CONCRETE:
+  material: RED_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_CONCRETE:
+  material: BLACK_CONCRETE
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_CONCRETE_POWDER:
+  material: WHITE_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_CONCRETE_POWDER:
+  material: ORANGE_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_CONCRETE_POWDER:
+  material: MAGENTA_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_CONCRETE_POWDER:
+  material: LIGHT_BLUE_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_CONCRETE_POWDER:
+  material: YELLOW_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_CONCRETE_POWDER:
+  material: LIME_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_CONCRETE_POWDER:
+  material: PINK_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_CONCRETE_POWDER:
+  material: GRAY_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_CONCRETE_POWDER:
+  material: LIGHT_GRAY_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_CONCRETE_POWDER:
+  material: CYAN_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_CONCRETE_POWDER:
+  material: PURPLE_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_CONCRETE_POWDER:
+  material: BLUE_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_CONCRETE_POWDER:
+  material: BROWN_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_CONCRETE_POWDER:
+  material: GREEN_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+RED_CONCRETE_POWDER:
+  material: RED_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_CONCRETE_POWDER:
+  material: BLACK_CONCRETE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+TURTLE_EGG:
+  material: TURTLE_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_TUBE_CORAL_BLOCK:
+  material: DEAD_TUBE_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BRAIN_CORAL_BLOCK:
+  material: DEAD_BRAIN_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BUBBLE_CORAL_BLOCK:
+  material: DEAD_BUBBLE_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_FIRE_CORAL_BLOCK:
+  material: DEAD_FIRE_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_HORN_CORAL_BLOCK:
+  material: DEAD_HORN_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+TUBE_CORAL_BLOCK:
+  material: TUBE_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+BRAIN_CORAL_BLOCK:
+  material: BRAIN_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+BUBBLE_CORAL_BLOCK:
+  material: BUBBLE_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+FIRE_CORAL_BLOCK:
+  material: FIRE_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+HORN_CORAL_BLOCK:
+  material: HORN_CORAL_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+TUBE_CORAL:
+  material: TUBE_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+BRAIN_CORAL:
+  material: BRAIN_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+BUBBLE_CORAL:
+  material: BUBBLE_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+FIRE_CORAL:
+  material: FIRE_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+HORN_CORAL:
+  material: HORN_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BRAIN_CORAL:
+  material: DEAD_BRAIN_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BUBBLE_CORAL:
+  material: DEAD_BUBBLE_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_FIRE_CORAL:
+  material: DEAD_FIRE_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_HORN_CORAL:
+  material: DEAD_HORN_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_TUBE_CORAL:
+  material: DEAD_TUBE_CORAL
+  value: 0
+  currency: 0
+  rarity: 0
+TUBE_CORAL_FAN:
+  material: TUBE_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+BRAIN_CORAL_FAN:
+  material: BRAIN_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+BUBBLE_CORAL_FAN:
+  material: BUBBLE_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+FIRE_CORAL_FAN:
+  material: FIRE_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+HORN_CORAL_FAN:
+  material: HORN_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_TUBE_CORAL_FAN:
+  material: DEAD_TUBE_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BRAIN_CORAL_FAN:
+  material: DEAD_BRAIN_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BUBBLE_CORAL_FAN:
+  material: DEAD_BUBBLE_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_FIRE_CORAL_FAN:
+  material: DEAD_FIRE_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_HORN_CORAL_FAN:
+  material: DEAD_HORN_CORAL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_ICE:
+  material: BLUE_ICE
+  value: 0
+  currency: 0
+  rarity: 0
+CONDUIT:
+  material: CONDUIT
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_GRANITE_STAIRS:
+  material: POLISHED_GRANITE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_RED_SANDSTONE_STAIRS:
+  material: SMOOTH_RED_SANDSTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_STONE_BRICK_STAIRS:
+  material: MOSSY_STONE_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_DIORITE_STAIRS:
+  material: POLISHED_DIORITE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_COBBLESTONE_STAIRS:
+  material: MOSSY_COBBLESTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+END_STONE_BRICK_STAIRS:
+  material: END_STONE_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_STAIRS:
+  material: STONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_SANDSTONE_STAIRS:
+  material: SMOOTH_SANDSTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_QUARTZ_STAIRS:
+  material: SMOOTH_QUARTZ_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+GRANITE_STAIRS:
+  material: GRANITE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+ANDESITE_STAIRS:
+  material: ANDESITE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+RED_NETHER_BRICK_STAIRS:
+  material: RED_NETHER_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_ANDESITE_STAIRS:
+  material: POLISHED_ANDESITE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+DIORITE_STAIRS:
+  material: DIORITE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLED_DEEPSLATE_STAIRS:
+  material: COBBLED_DEEPSLATE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_DEEPSLATE_STAIRS:
+  material: POLISHED_DEEPSLATE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_BRICK_STAIRS:
+  material: DEEPSLATE_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_TILE_STAIRS:
+  material: DEEPSLATE_TILE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_GRANITE_SLAB:
+  material: POLISHED_GRANITE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_RED_SANDSTONE_SLAB:
+  material: SMOOTH_RED_SANDSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_STONE_BRICK_SLAB:
+  material: MOSSY_STONE_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_DIORITE_SLAB:
+  material: POLISHED_DIORITE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+MOSSY_COBBLESTONE_SLAB:
+  material: MOSSY_COBBLESTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+END_STONE_BRICK_SLAB:
+  material: END_STONE_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_SANDSTONE_SLAB:
+  material: SMOOTH_SANDSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SMOOTH_QUARTZ_SLAB:
+  material: SMOOTH_QUARTZ_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+GRANITE_SLAB:
+  material: GRANITE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+ANDESITE_SLAB:
+  material: ANDESITE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+RED_NETHER_BRICK_SLAB:
+  material: RED_NETHER_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_ANDESITE_SLAB:
+  material: POLISHED_ANDESITE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+DIORITE_SLAB:
+  material: DIORITE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+COBBLED_DEEPSLATE_SLAB:
+  material: COBBLED_DEEPSLATE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_DEEPSLATE_SLAB:
+  material: POLISHED_DEEPSLATE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_BRICK_SLAB:
+  material: DEEPSLATE_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+DEEPSLATE_TILE_SLAB:
+  material: DEEPSLATE_TILE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+SCAFFOLDING:
+  material: SCAFFOLDING
+  value: 0
+  currency: 0
+  rarity: 0
+REDSTONE:
+  material: REDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+REDSTONE_TORCH:
+  material: REDSTONE_TORCH
+  value: 0
+  currency: 0
+  rarity: 0
+REDSTONE_BLOCK:
+  material: REDSTONE_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+REPEATER:
+  material: REPEATER
+  value: 0
+  currency: 0
+  rarity: 0
+COMPARATOR:
+  material: COMPARATOR
+  value: 0
+  currency: 0
+  rarity: 0
+PISTON:
+  material: PISTON
+  value: 0
+  currency: 0
+  rarity: 0
+STICKY_PISTON:
+  material: STICKY_PISTON
+  value: 0
+  currency: 0
+  rarity: 0
+SLIME_BLOCK:
+  material: SLIME_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+HONEY_BLOCK:
+  material: HONEY_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+OBSERVER:
+  material: OBSERVER
+  value: 0
+  currency: 0
+  rarity: 0
+HOPPER:
+  material: HOPPER
+  value: 0
+  currency: 0
+  rarity: 0
+DISPENSER:
+  material: DISPENSER
+  value: 0
+  currency: 0
+  rarity: 0
+DROPPER:
+  material: DROPPER
+  value: 0
+  currency: 0
+  rarity: 0
+LECTERN:
+  material: LECTERN
+  value: 0
+  currency: 0
+  rarity: 0
+TARGET:
+  material: TARGET
+  value: 0
+  currency: 0
+  rarity: 0
+LEVER:
+  material: LEVER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHTNING_ROD:
+  material: LIGHTNING_ROD
+  value: 0
+  currency: 0
+  rarity: 0
+DAYLIGHT_DETECTOR:
+  material: DAYLIGHT_DETECTOR
+  value: 0
+  currency: 0
+  rarity: 0
+SCULK_SENSOR:
+  material: SCULK_SENSOR
+  value: 0
+  currency: 0
+  rarity: 0
+TRIPWIRE_HOOK:
+  material: TRIPWIRE_HOOK
+  value: 0
+  currency: 0
+  rarity: 0
+TRAPPED_CHEST:
+  material: TRAPPED_CHEST
+  value: 0
+  currency: 0
+  rarity: 0
+TNT:
+  material: TNT
+  value: 0
+  currency: 0
+  rarity: 0
+REDSTONE_LAMP:
+  material: REDSTONE_LAMP
+  value: 0
+  currency: 0
+  rarity: 0
+NOTE_BLOCK:
+  material: NOTE_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_BUTTON:
+  material: STONE_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_BUTTON:
+  material: POLISHED_BLACKSTONE_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_BUTTON:
+  material: OAK_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_BUTTON:
+  material: SPRUCE_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_BUTTON:
+  material: BIRCH_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_BUTTON:
+  material: JUNGLE_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_BUTTON:
+  material: ACACIA_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_BUTTON:
+  material: DARK_OAK_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_BUTTON:
+  material: CRIMSON_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_BUTTON:
+  material: WARPED_BUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_PRESSURE_PLATE:
+  material: STONE_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_PRESSURE_PLATE:
+  material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_WEIGHTED_PRESSURE_PLATE:
+  material: LIGHT_WEIGHTED_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+HEAVY_WEIGHTED_PRESSURE_PLATE:
+  material: HEAVY_WEIGHTED_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_PRESSURE_PLATE:
+  material: OAK_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_PRESSURE_PLATE:
+  material: SPRUCE_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_PRESSURE_PLATE:
+  material: BIRCH_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_PRESSURE_PLATE:
+  material: JUNGLE_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_PRESSURE_PLATE:
+  material: ACACIA_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_PRESSURE_PLATE:
+  material: DARK_OAK_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_PRESSURE_PLATE:
+  material: CRIMSON_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_PRESSURE_PLATE:
+  material: WARPED_PRESSURE_PLATE
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_DOOR:
+  material: IRON_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_DOOR:
+  material: OAK_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_DOOR:
+  material: SPRUCE_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_DOOR:
+  material: BIRCH_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_DOOR:
+  material: JUNGLE_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_DOOR:
+  material: ACACIA_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_DOOR:
+  material: DARK_OAK_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_DOOR:
+  material: CRIMSON_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_DOOR:
+  material: WARPED_DOOR
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_TRAPDOOR:
+  material: IRON_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_TRAPDOOR:
+  material: OAK_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_TRAPDOOR:
+  material: SPRUCE_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_TRAPDOOR:
+  material: BIRCH_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_TRAPDOOR:
+  material: JUNGLE_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_TRAPDOOR:
+  material: ACACIA_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_TRAPDOOR:
+  material: DARK_OAK_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_TRAPDOOR:
+  material: CRIMSON_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_TRAPDOOR:
+  material: WARPED_TRAPDOOR
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_FENCE_GATE:
+  material: OAK_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_FENCE_GATE:
+  material: SPRUCE_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_FENCE_GATE:
+  material: BIRCH_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_FENCE_GATE:
+  material: JUNGLE_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_FENCE_GATE:
+  material: ACACIA_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_FENCE_GATE:
+  material: DARK_OAK_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_FENCE_GATE:
+  material: CRIMSON_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_FENCE_GATE:
+  material: WARPED_FENCE_GATE
+  value: 0
+  currency: 0
+  rarity: 0
+POWERED_RAIL:
+  material: POWERED_RAIL
+  value: 0
+  currency: 0
+  rarity: 0
+DETECTOR_RAIL:
+  material: DETECTOR_RAIL
+  value: 0
+  currency: 0
+  rarity: 0
+RAIL:
+  material: RAIL
+  value: 0
+  currency: 0
+  rarity: 0
+ACTIVATOR_RAIL:
+  material: ACTIVATOR_RAIL
+  value: 0
+  currency: 0
+  rarity: 0
+SADDLE:
+  material: SADDLE
+  value: 0
+  currency: 0
+  rarity: 0
+MINECART:
+  material: MINECART
+  value: 0
+  currency: 0
+  rarity: 0
+CHEST_MINECART:
+  material: CHEST_MINECART
+  value: 0
+  currency: 0
+  rarity: 0
+FURNACE_MINECART:
+  material: FURNACE_MINECART
+  value: 0
+  currency: 0
+  rarity: 0
+TNT_MINECART:
+  material: TNT_MINECART
+  value: 0
+  currency: 0
+  rarity: 0
+HOPPER_MINECART:
+  material: HOPPER_MINECART
+  value: 0
+  currency: 0
+  rarity: 0
+CARROT_ON_A_STICK:
+  material: CARROT_ON_A_STICK
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_FUNGUS_ON_A_STICK:
+  material: WARPED_FUNGUS_ON_A_STICK
+  value: 0
+  currency: 0
+  rarity: 0
+ELYTRA:
+  material: ELYTRA
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_BOAT:
+  material: OAK_BOAT
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_BOAT:
+  material: SPRUCE_BOAT
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_BOAT:
+  material: BIRCH_BOAT
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_BOAT:
+  material: JUNGLE_BOAT
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_BOAT:
+  material: ACACIA_BOAT
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_BOAT:
+  material: DARK_OAK_BOAT
+  value: 0
+  currency: 0
+  rarity: 0
+STRUCTURE_BLOCK:
+  material: STRUCTURE_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+JIGSAW:
+  material: JIGSAW
+  value: 0
+  currency: 0
+  rarity: 0
+TURTLE_HELMET:
+  material: TURTLE_HELMET
+  value: 0
+  currency: 0
+  rarity: 0
+SCUTE:
+  material: SCUTE
+  value: 0
+  currency: 0
+  rarity: 0
+FLINT_AND_STEEL:
+  material: FLINT_AND_STEEL
+  value: 0
+  currency: 0
+  rarity: 0
+APPLE:
+  material: APPLE
+  value: 0
+  currency: 0
+  rarity: 0
+BOW:
+  material: BOW
+  value: 0
+  currency: 0
+  rarity: 0
+ARROW:
+  material: ARROW
+  value: 0
+  currency: 0
+  rarity: 0
+COAL:
+  material: COAL
+  value: 0
+  currency: 0
+  rarity: 0
+CHARCOAL:
+  material: CHARCOAL
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND:
+  material: DIAMOND
+  value: 0
+  currency: 0
+  rarity: 0
+EMERALD:
+  material: EMERALD
+  value: 0
+  currency: 0
+  rarity: 0
+LAPIS_LAZULI:
+  material: LAPIS_LAZULI
+  value: 0
+  currency: 0
+  rarity: 0
+QUARTZ:
+  material: QUARTZ
+  value: 0
+  currency: 0
+  rarity: 0
+AMETHYST_SHARD:
+  material: AMETHYST_SHARD
+  value: 0
+  currency: 0
+  rarity: 0
+RAW_IRON:
+  material: RAW_IRON
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_INGOT:
+  material: IRON_INGOT
+  value: 0
+  currency: 0
+  rarity: 0
+RAW_COPPER:
+  material: RAW_COPPER
+  value: 0
+  currency: 0
+  rarity: 0
+COPPER_INGOT:
+  material: COPPER_INGOT
+  value: 0
+  currency: 0
+  rarity: 0
+RAW_GOLD:
+  material: RAW_GOLD
+  value: 0
+  currency: 0
+  rarity: 0
+GOLD_INGOT:
+  material: GOLD_INGOT
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_INGOT:
+  material: NETHERITE_INGOT
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_SCRAP:
+  material: NETHERITE_SCRAP
+  value: 0
+  currency: 0
+  rarity: 0
+WOODEN_SWORD:
+  material: WOODEN_SWORD
+  value: 0
+  currency: 0
+  rarity: 0
+WOODEN_SHOVEL:
+  material: WOODEN_SHOVEL
+  value: 0
+  currency: 0
+  rarity: 0
+WOODEN_PICKAXE:
+  material: WOODEN_PICKAXE
+  value: 0
+  currency: 0
+  rarity: 0
+WOODEN_AXE:
+  material: WOODEN_AXE
+  value: 0
+  currency: 0
+  rarity: 0
+WOODEN_HOE:
+  material: WOODEN_HOE
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_SWORD:
+  material: STONE_SWORD
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_SHOVEL:
+  material: STONE_SHOVEL
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_PICKAXE:
+  material: STONE_PICKAXE
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_AXE:
+  material: STONE_AXE
+  value: 0
+  currency: 0
+  rarity: 0
+STONE_HOE:
+  material: STONE_HOE
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_SWORD:
+  material: GOLDEN_SWORD
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_SHOVEL:
+  material: GOLDEN_SHOVEL
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_PICKAXE:
+  material: GOLDEN_PICKAXE
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_AXE:
+  material: GOLDEN_AXE
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_HOE:
+  material: GOLDEN_HOE
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_SWORD:
+  material: IRON_SWORD
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_SHOVEL:
+  material: IRON_SHOVEL
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_PICKAXE:
+  material: IRON_PICKAXE
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_AXE:
+  material: IRON_AXE
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_HOE:
+  material: IRON_HOE
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_SWORD:
+  material: DIAMOND_SWORD
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_SHOVEL:
+  material: DIAMOND_SHOVEL
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_PICKAXE:
+  material: DIAMOND_PICKAXE
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_AXE:
+  material: DIAMOND_AXE
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_HOE:
+  material: DIAMOND_HOE
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_SWORD:
+  material: NETHERITE_SWORD
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_SHOVEL:
+  material: NETHERITE_SHOVEL
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_PICKAXE:
+  material: NETHERITE_PICKAXE
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_AXE:
+  material: NETHERITE_AXE
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_HOE:
+  material: NETHERITE_HOE
+  value: 0
+  currency: 0
+  rarity: 0
+STICK:
+  material: STICK
+  value: 0
+  currency: 0
+  rarity: 0
+BOWL:
+  material: BOWL
+  value: 0
+  currency: 0
+  rarity: 0
+MUSHROOM_STEW:
+  material: MUSHROOM_STEW
+  value: 0
+  currency: 0
+  rarity: 0
+STRING:
+  material: STRING
+  value: 0
+  currency: 0
+  rarity: 0
+FEATHER:
+  material: FEATHER
+  value: 0
+  currency: 0
+  rarity: 0
+GUNPOWDER:
+  material: GUNPOWDER
+  value: 0
+  currency: 0
+  rarity: 0
+WHEAT_SEEDS:
+  material: WHEAT_SEEDS
+  value: 0
+  currency: 0
+  rarity: 0
+WHEAT:
+  material: WHEAT
+  value: 0
+  currency: 0
+  rarity: 0
+BREAD:
+  material: BREAD
+  value: 0
+  currency: 0
+  rarity: 0
+LEATHER_HELMET:
+  material: LEATHER_HELMET
+  value: 0
+  currency: 0
+  rarity: 0
+LEATHER_CHESTPLATE:
+  material: LEATHER_CHESTPLATE
+  value: 0
+  currency: 0
+  rarity: 0
+LEATHER_LEGGINGS:
+  material: LEATHER_LEGGINGS
+  value: 0
+  currency: 0
+  rarity: 0
+LEATHER_BOOTS:
+  material: LEATHER_BOOTS
+  value: 0
+  currency: 0
+  rarity: 0
+CHAINMAIL_HELMET:
+  material: CHAINMAIL_HELMET
+  value: 0
+  currency: 0
+  rarity: 0
+CHAINMAIL_CHESTPLATE:
+  material: CHAINMAIL_CHESTPLATE
+  value: 0
+  currency: 0
+  rarity: 0
+CHAINMAIL_LEGGINGS:
+  material: CHAINMAIL_LEGGINGS
+  value: 0
+  currency: 0
+  rarity: 0
+CHAINMAIL_BOOTS:
+  material: CHAINMAIL_BOOTS
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_HELMET:
+  material: IRON_HELMET
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_CHESTPLATE:
+  material: IRON_CHESTPLATE
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_LEGGINGS:
+  material: IRON_LEGGINGS
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_BOOTS:
+  material: IRON_BOOTS
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_HELMET:
+  material: DIAMOND_HELMET
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_CHESTPLATE:
+  material: DIAMOND_CHESTPLATE
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_LEGGINGS:
+  material: DIAMOND_LEGGINGS
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_BOOTS:
+  material: DIAMOND_BOOTS
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_HELMET:
+  material: GOLDEN_HELMET
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_CHESTPLATE:
+  material: GOLDEN_CHESTPLATE
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_LEGGINGS:
+  material: GOLDEN_LEGGINGS
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_BOOTS:
+  material: GOLDEN_BOOTS
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_HELMET:
+  material: NETHERITE_HELMET
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_CHESTPLATE:
+  material: NETHERITE_CHESTPLATE
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_LEGGINGS:
+  material: NETHERITE_LEGGINGS
+  value: 0
+  currency: 0
+  rarity: 0
+NETHERITE_BOOTS:
+  material: NETHERITE_BOOTS
+  value: 0
+  currency: 0
+  rarity: 0
+FLINT:
+  material: FLINT
+  value: 0
+  currency: 0
+  rarity: 0
+PORKCHOP:
+  material: PORKCHOP
+  value: 0
+  currency: 0
+  rarity: 0
+COOKED_PORKCHOP:
+  material: COOKED_PORKCHOP
+  value: 0
+  currency: 0
+  rarity: 0
+PAINTING:
+  material: PAINTING
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_APPLE:
+  material: GOLDEN_APPLE
+  value: 0
+  currency: 0
+  rarity: 0
+ENCHANTED_GOLDEN_APPLE:
+  material: ENCHANTED_GOLDEN_APPLE
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_SIGN:
+  material: OAK_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_SIGN:
+  material: SPRUCE_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_SIGN:
+  material: BIRCH_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_SIGN:
+  material: JUNGLE_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_SIGN:
+  material: ACACIA_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_SIGN:
+  material: DARK_OAK_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_SIGN:
+  material: CRIMSON_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_SIGN:
+  material: WARPED_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+BUCKET:
+  material: BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+WATER_BUCKET:
+  material: WATER_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+LAVA_BUCKET:
+  material: LAVA_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+POWDER_SNOW_BUCKET:
+  material: POWDER_SNOW_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+SNOWBALL:
+  material: SNOWBALL
+  value: 0
+  currency: 0
+  rarity: 0
+LEATHER:
+  material: LEATHER
+  value: 0
+  currency: 0
+  rarity: 0
+MILK_BUCKET:
+  material: MILK_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+PUFFERFISH_BUCKET:
+  material: PUFFERFISH_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+SALMON_BUCKET:
+  material: SALMON_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+COD_BUCKET:
+  material: COD_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+TROPICAL_FISH_BUCKET:
+  material: TROPICAL_FISH_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+AXOLOTL_BUCKET:
+  material: AXOLOTL_BUCKET
+  value: 0
+  currency: 0
+  rarity: 0
+BRICK:
+  material: BRICK
+  value: 0
+  currency: 0
+  rarity: 0
+CLAY_BALL:
+  material: CLAY_BALL
+  value: 0
+  currency: 0
+  rarity: 0
+DRIED_KELP_BLOCK:
+  material: DRIED_KELP_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+PAPER:
+  material: PAPER
+  value: 0
+  currency: 0
+  rarity: 0
+BOOK:
+  material: BOOK
+  value: 0
+  currency: 0
+  rarity: 0
+SLIME_BALL:
+  material: SLIME_BALL
+  value: 0
+  currency: 0
+  rarity: 0
+EGG:
+  material: EGG
+  value: 0
+  currency: 0
+  rarity: 0
+COMPASS:
+  material: COMPASS
+  value: 0
+  currency: 0
+  rarity: 0
+BUNDLE:
+  material: BUNDLE
+  value: 0
+  currency: 0
+  rarity: 0
+FISHING_ROD:
+  material: FISHING_ROD
+  value: 0
+  currency: 0
+  rarity: 0
+CLOCK:
+  material: CLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+SPYGLASS:
+  material: SPYGLASS
+  value: 0
+  currency: 0
+  rarity: 0
+GLOWSTONE_DUST:
+  material: GLOWSTONE_DUST
+  value: 0
+  currency: 0
+  rarity: 0
+COD:
+  material: COD
+  value: 0
+  currency: 0
+  rarity: 0
+SALMON:
+  material: SALMON
+  value: 0
+  currency: 0
+  rarity: 0
+TROPICAL_FISH:
+  material: TROPICAL_FISH
+  value: 0
+  currency: 0
+  rarity: 0
+PUFFERFISH:
+  material: PUFFERFISH
+  value: 0
+  currency: 0
+  rarity: 0
+COOKED_COD:
+  material: COOKED_COD
+  value: 0
+  currency: 0
+  rarity: 0
+COOKED_SALMON:
+  material: COOKED_SALMON
+  value: 0
+  currency: 0
+  rarity: 0
+INK_SAC:
+  material: INK_SAC
+  value: 0
+  currency: 0
+  rarity: 0
+GLOW_INK_SAC:
+  material: GLOW_INK_SAC
+  value: 0
+  currency: 0
+  rarity: 0
+COCOA_BEANS:
+  material: COCOA_BEANS
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_DYE:
+  material: WHITE_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_DYE:
+  material: ORANGE_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_DYE:
+  material: MAGENTA_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_DYE:
+  material: LIGHT_BLUE_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_DYE:
+  material: YELLOW_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_DYE:
+  material: LIME_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_DYE:
+  material: PINK_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_DYE:
+  material: GRAY_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_DYE:
+  material: LIGHT_GRAY_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_DYE:
+  material: CYAN_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_DYE:
+  material: PURPLE_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_DYE:
+  material: BLUE_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_DYE:
+  material: BROWN_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_DYE:
+  material: GREEN_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+RED_DYE:
+  material: RED_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_DYE:
+  material: BLACK_DYE
+  value: 0
+  currency: 0
+  rarity: 0
+BONE_MEAL:
+  material: BONE_MEAL
+  value: 0
+  currency: 0
+  rarity: 0
+BONE:
+  material: BONE
+  value: 0
+  currency: 0
+  rarity: 0
+SUGAR:
+  material: SUGAR
+  value: 0
+  currency: 0
+  rarity: 0
+CAKE:
+  material: CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_BED:
+  material: WHITE_BED
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_BED:
+  material: ORANGE_BED
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_BED:
+  material: MAGENTA_BED
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_BED:
+  material: LIGHT_BLUE_BED
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_BED:
+  material: YELLOW_BED
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_BED:
+  material: LIME_BED
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_BED:
+  material: PINK_BED
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_BED:
+  material: GRAY_BED
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_BED:
+  material: LIGHT_GRAY_BED
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_BED:
+  material: CYAN_BED
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_BED:
+  material: PURPLE_BED
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_BED:
+  material: BLUE_BED
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_BED:
+  material: BROWN_BED
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_BED:
+  material: GREEN_BED
+  value: 0
+  currency: 0
+  rarity: 0
+RED_BED:
+  material: RED_BED
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_BED:
+  material: BLACK_BED
+  value: 0
+  currency: 0
+  rarity: 0
+COOKIE:
+  material: COOKIE
+  value: 0
+  currency: 0
+  rarity: 0
+FILLED_MAP:
+  material: FILLED_MAP
+  value: 0
+  currency: 0
+  rarity: 0
+SHEARS:
+  material: SHEARS
+  value: 0
+  currency: 0
+  rarity: 0
+MELON_SLICE:
+  material: MELON_SLICE
+  value: 0
+  currency: 0
+  rarity: 0
+DRIED_KELP:
+  material: DRIED_KELP
+  value: 0
+  currency: 0
+  rarity: 0
+PUMPKIN_SEEDS:
+  material: PUMPKIN_SEEDS
+  value: 0
+  currency: 0
+  rarity: 0
+MELON_SEEDS:
+  material: MELON_SEEDS
+  value: 0
+  currency: 0
+  rarity: 0
+BEEF:
+  material: BEEF
+  value: 0
+  currency: 0
+  rarity: 0
+COOKED_BEEF:
+  material: COOKED_BEEF
+  value: 0
+  currency: 0
+  rarity: 0
+CHICKEN:
+  material: CHICKEN
+  value: 0
+  currency: 0
+  rarity: 0
+COOKED_CHICKEN:
+  material: COOKED_CHICKEN
+  value: 0
+  currency: 0
+  rarity: 0
+ROTTEN_FLESH:
+  material: ROTTEN_FLESH
+  value: 0
+  currency: 0
+  rarity: 0
+ENDER_PEARL:
+  material: ENDER_PEARL
+  value: 0
+  currency: 0
+  rarity: 0
+BLAZE_ROD:
+  material: BLAZE_ROD
+  value: 0
+  currency: 0
+  rarity: 0
+GHAST_TEAR:
+  material: GHAST_TEAR
+  value: 0
+  currency: 0
+  rarity: 0
+GOLD_NUGGET:
+  material: GOLD_NUGGET
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_WART:
+  material: NETHER_WART
+  value: 0
+  currency: 0
+  rarity: 0
+POTION:
+  material: POTION
+  value: 0
+  currency: 0
+  rarity: 0
+GLASS_BOTTLE:
+  material: GLASS_BOTTLE
+  value: 0
+  currency: 0
+  rarity: 0
+SPIDER_EYE:
+  material: SPIDER_EYE
+  value: 0
+  currency: 0
+  rarity: 0
+FERMENTED_SPIDER_EYE:
+  material: FERMENTED_SPIDER_EYE
+  value: 0
+  currency: 0
+  rarity: 0
+BLAZE_POWDER:
+  material: BLAZE_POWDER
+  value: 0
+  currency: 0
+  rarity: 0
+MAGMA_CREAM:
+  material: MAGMA_CREAM
+  value: 0
+  currency: 0
+  rarity: 0
+BREWING_STAND:
+  material: BREWING_STAND
+  value: 0
+  currency: 0
+  rarity: 0
+CAULDRON:
+  material: CAULDRON
+  value: 0
+  currency: 0
+  rarity: 0
+ENDER_EYE:
+  material: ENDER_EYE
+  value: 0
+  currency: 0
+  rarity: 0
+GLISTERING_MELON_SLICE:
+  material: GLISTERING_MELON_SLICE
+  value: 0
+  currency: 0
+  rarity: 0
+AXOLOTL_SPAWN_EGG:
+  material: AXOLOTL_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+BAT_SPAWN_EGG:
+  material: BAT_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+BEE_SPAWN_EGG:
+  material: BEE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+BLAZE_SPAWN_EGG:
+  material: BLAZE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+CAT_SPAWN_EGG:
+  material: CAT_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+CAVE_SPIDER_SPAWN_EGG:
+  material: CAVE_SPIDER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+CHICKEN_SPAWN_EGG:
+  material: CHICKEN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+COD_SPAWN_EGG:
+  material: COD_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+COW_SPAWN_EGG:
+  material: COW_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+CREEPER_SPAWN_EGG:
+  material: CREEPER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+DOLPHIN_SPAWN_EGG:
+  material: DOLPHIN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+DONKEY_SPAWN_EGG:
+  material: DONKEY_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+DROWNED_SPAWN_EGG:
+  material: DROWNED_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ELDER_GUARDIAN_SPAWN_EGG:
+  material: ELDER_GUARDIAN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ENDERMAN_SPAWN_EGG:
+  material: ENDERMAN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ENDERMITE_SPAWN_EGG:
+  material: ENDERMITE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+EVOKER_SPAWN_EGG:
+  material: EVOKER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+FOX_SPAWN_EGG:
+  material: FOX_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+GHAST_SPAWN_EGG:
+  material: GHAST_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+GLOW_SQUID_SPAWN_EGG:
+  material: GLOW_SQUID_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+GOAT_SPAWN_EGG:
+  material: GOAT_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+GUARDIAN_SPAWN_EGG:
+  material: GUARDIAN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+HOGLIN_SPAWN_EGG:
+  material: HOGLIN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+HORSE_SPAWN_EGG:
+  material: HORSE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+HUSK_SPAWN_EGG:
+  material: HUSK_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+LLAMA_SPAWN_EGG:
+  material: LLAMA_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+MAGMA_CUBE_SPAWN_EGG:
+  material: MAGMA_CUBE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+MOOSHROOM_SPAWN_EGG:
+  material: MOOSHROOM_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+MULE_SPAWN_EGG:
+  material: MULE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+OCELOT_SPAWN_EGG:
+  material: OCELOT_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PANDA_SPAWN_EGG:
+  material: PANDA_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PARROT_SPAWN_EGG:
+  material: PARROT_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PHANTOM_SPAWN_EGG:
+  material: PHANTOM_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PIG_SPAWN_EGG:
+  material: PIG_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PIGLIN_SPAWN_EGG:
+  material: PIGLIN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PIGLIN_BRUTE_SPAWN_EGG:
+  material: PIGLIN_BRUTE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PILLAGER_SPAWN_EGG:
+  material: PILLAGER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+POLAR_BEAR_SPAWN_EGG:
+  material: POLAR_BEAR_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+PUFFERFISH_SPAWN_EGG:
+  material: PUFFERFISH_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+RABBIT_SPAWN_EGG:
+  material: RABBIT_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+RAVAGER_SPAWN_EGG:
+  material: RAVAGER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SALMON_SPAWN_EGG:
+  material: SALMON_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SHEEP_SPAWN_EGG:
+  material: SHEEP_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SHULKER_SPAWN_EGG:
+  material: SHULKER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SILVERFISH_SPAWN_EGG:
+  material: SILVERFISH_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SKELETON_SPAWN_EGG:
+  material: SKELETON_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SKELETON_HORSE_SPAWN_EGG:
+  material: SKELETON_HORSE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SLIME_SPAWN_EGG:
+  material: SLIME_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SPIDER_SPAWN_EGG:
+  material: SPIDER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+SQUID_SPAWN_EGG:
+  material: SQUID_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+STRAY_SPAWN_EGG:
+  material: STRAY_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+STRIDER_SPAWN_EGG:
+  material: STRIDER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+TRADER_LLAMA_SPAWN_EGG:
+  material: TRADER_LLAMA_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+TROPICAL_FISH_SPAWN_EGG:
+  material: TROPICAL_FISH_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+TURTLE_SPAWN_EGG:
+  material: TURTLE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+VEX_SPAWN_EGG:
+  material: VEX_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+VILLAGER_SPAWN_EGG:
+  material: VILLAGER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+VINDICATOR_SPAWN_EGG:
+  material: VINDICATOR_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+WANDERING_TRADER_SPAWN_EGG:
+  material: WANDERING_TRADER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+WITCH_SPAWN_EGG:
+  material: WITCH_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+WITHER_SKELETON_SPAWN_EGG:
+  material: WITHER_SKELETON_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+WOLF_SPAWN_EGG:
+  material: WOLF_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ZOGLIN_SPAWN_EGG:
+  material: ZOGLIN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ZOMBIE_SPAWN_EGG:
+  material: ZOMBIE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ZOMBIE_HORSE_SPAWN_EGG:
+  material: ZOMBIE_HORSE_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ZOMBIE_VILLAGER_SPAWN_EGG:
+  material: ZOMBIE_VILLAGER_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+ZOMBIFIED_PIGLIN_SPAWN_EGG:
+  material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+  value: 0
+  currency: 0
+  rarity: 0
+EXPERIENCE_BOTTLE:
+  material: EXPERIENCE_BOTTLE
+  value: 0
+  currency: 0
+  rarity: 0
+FIRE_CHARGE:
+  material: FIRE_CHARGE
+  value: 0
+  currency: 0
+  rarity: 0
+WRITABLE_BOOK:
+  material: WRITABLE_BOOK
+  value: 0
+  currency: 0
+  rarity: 0
+WRITTEN_BOOK:
+  material: WRITTEN_BOOK
+  value: 0
+  currency: 0
+  rarity: 0
+ITEM_FRAME:
+  material: ITEM_FRAME
+  value: 0
+  currency: 0
+  rarity: 0
+GLOW_ITEM_FRAME:
+  material: GLOW_ITEM_FRAME
+  value: 0
+  currency: 0
+  rarity: 0
+FLOWER_POT:
+  material: FLOWER_POT
+  value: 0
+  currency: 0
+  rarity: 0
+CARROT:
+  material: CARROT
+  value: 0
+  currency: 0
+  rarity: 0
+POTATO:
+  material: POTATO
+  value: 0
+  currency: 0
+  rarity: 0
+BAKED_POTATO:
+  material: BAKED_POTATO
+  value: 0
+  currency: 0
+  rarity: 0
+POISONOUS_POTATO:
+  material: POISONOUS_POTATO
+  value: 0
+  currency: 0
+  rarity: 0
+MAP:
+  material: MAP
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_CARROT:
+  material: GOLDEN_CARROT
+  value: 0
+  currency: 0
+  rarity: 0
+SKELETON_SKULL:
+  material: SKELETON_SKULL
+  value: 0
+  currency: 0
+  rarity: 0
+WITHER_SKELETON_SKULL:
+  material: WITHER_SKELETON_SKULL
+  value: 0
+  currency: 0
+  rarity: 0
+PLAYER_HEAD:
+  material: PLAYER_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+ZOMBIE_HEAD:
+  material: ZOMBIE_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+CREEPER_HEAD:
+  material: CREEPER_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+DRAGON_HEAD:
+  material: DRAGON_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_STAR:
+  material: NETHER_STAR
+  value: 0
+  currency: 0
+  rarity: 0
+PUMPKIN_PIE:
+  material: PUMPKIN_PIE
+  value: 0
+  currency: 0
+  rarity: 0
+FIREWORK_ROCKET:
+  material: FIREWORK_ROCKET
+  value: 0
+  currency: 0
+  rarity: 0
+FIREWORK_STAR:
+  material: FIREWORK_STAR
+  value: 0
+  currency: 0
+  rarity: 0
+ENCHANTED_BOOK:
+  material: ENCHANTED_BOOK
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_BRICK:
+  material: NETHER_BRICK
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_SHARD:
+  material: PRISMARINE_SHARD
+  value: 0
+  currency: 0
+  rarity: 0
+PRISMARINE_CRYSTALS:
+  material: PRISMARINE_CRYSTALS
+  value: 0
+  currency: 0
+  rarity: 0
+RABBIT:
+  material: RABBIT
+  value: 0
+  currency: 0
+  rarity: 0
+COOKED_RABBIT:
+  material: COOKED_RABBIT
+  value: 0
+  currency: 0
+  rarity: 0
+RABBIT_STEW:
+  material: RABBIT_STEW
+  value: 0
+  currency: 0
+  rarity: 0
+RABBIT_FOOT:
+  material: RABBIT_FOOT
+  value: 0
+  currency: 0
+  rarity: 0
+RABBIT_HIDE:
+  material: RABBIT_HIDE
+  value: 0
+  currency: 0
+  rarity: 0
+ARMOR_STAND:
+  material: ARMOR_STAND
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_HORSE_ARMOR:
+  material: IRON_HORSE_ARMOR
+  value: 0
+  currency: 0
+  rarity: 0
+GOLDEN_HORSE_ARMOR:
+  material: GOLDEN_HORSE_ARMOR
+  value: 0
+  currency: 0
+  rarity: 0
+DIAMOND_HORSE_ARMOR:
+  material: DIAMOND_HORSE_ARMOR
+  value: 0
+  currency: 0
+  rarity: 0
+LEATHER_HORSE_ARMOR:
+  material: LEATHER_HORSE_ARMOR
+  value: 0
+  currency: 0
+  rarity: 0
+LEAD:
+  material: LEAD
+  value: 0
+  currency: 0
+  rarity: 0
+NAME_TAG:
+  material: NAME_TAG
+  value: 0
+  currency: 0
+  rarity: 0
+COMMAND_BLOCK_MINECART:
+  material: COMMAND_BLOCK_MINECART
+  value: 0
+  currency: 0
+  rarity: 0
+MUTTON:
+  material: MUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+COOKED_MUTTON:
+  material: COOKED_MUTTON
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_BANNER:
+  material: WHITE_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_BANNER:
+  material: ORANGE_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_BANNER:
+  material: MAGENTA_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_BANNER:
+  material: LIGHT_BLUE_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_BANNER:
+  material: YELLOW_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_BANNER:
+  material: LIME_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_BANNER:
+  material: PINK_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_BANNER:
+  material: GRAY_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_BANNER:
+  material: LIGHT_GRAY_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_BANNER:
+  material: CYAN_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_BANNER:
+  material: PURPLE_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_BANNER:
+  material: BLUE_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_BANNER:
+  material: BROWN_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_BANNER:
+  material: GREEN_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+RED_BANNER:
+  material: RED_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_BANNER:
+  material: BLACK_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+END_CRYSTAL:
+  material: END_CRYSTAL
+  value: 0
+  currency: 0
+  rarity: 0
+CHORUS_FRUIT:
+  material: CHORUS_FRUIT
+  value: 0
+  currency: 0
+  rarity: 0
+POPPED_CHORUS_FRUIT:
+  material: POPPED_CHORUS_FRUIT
+  value: 0
+  currency: 0
+  rarity: 0
+BEETROOT:
+  material: BEETROOT
+  value: 0
+  currency: 0
+  rarity: 0
+BEETROOT_SEEDS:
+  material: BEETROOT_SEEDS
+  value: 0
+  currency: 0
+  rarity: 0
+BEETROOT_SOUP:
+  material: BEETROOT_SOUP
+  value: 0
+  currency: 0
+  rarity: 0
+DRAGON_BREATH:
+  material: DRAGON_BREATH
+  value: 0
+  currency: 0
+  rarity: 0
+SPLASH_POTION:
+  material: SPLASH_POTION
+  value: 0
+  currency: 0
+  rarity: 0
+SPECTRAL_ARROW:
+  material: SPECTRAL_ARROW
+  value: 0
+  currency: 0
+  rarity: 0
+TIPPED_ARROW:
+  material: TIPPED_ARROW
+  value: 0
+  currency: 0
+  rarity: 0
+LINGERING_POTION:
+  material: LINGERING_POTION
+  value: 0
+  currency: 0
+  rarity: 0
+SHIELD:
+  material: SHIELD
+  value: 0
+  currency: 0
+  rarity: 0
+TOTEM_OF_UNDYING:
+  material: TOTEM_OF_UNDYING
+  value: 0
+  currency: 0
+  rarity: 0
+SHULKER_SHELL:
+  material: SHULKER_SHELL
+  value: 0
+  currency: 0
+  rarity: 0
+IRON_NUGGET:
+  material: IRON_NUGGET
+  value: 0
+  currency: 0
+  rarity: 0
+KNOWLEDGE_BOOK:
+  material: KNOWLEDGE_BOOK
+  value: 0
+  currency: 0
+  rarity: 0
+DEBUG_STICK:
+  material: DEBUG_STICK
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_13:
+  material: MUSIC_DISC_13
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_CAT:
+  material: MUSIC_DISC_CAT
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_BLOCKS:
+  material: MUSIC_DISC_BLOCKS
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_CHIRP:
+  material: MUSIC_DISC_CHIRP
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_FAR:
+  material: MUSIC_DISC_FAR
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_MALL:
+  material: MUSIC_DISC_MALL
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_MELLOHI:
+  material: MUSIC_DISC_MELLOHI
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_STAL:
+  material: MUSIC_DISC_STAL
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_STRAD:
+  material: MUSIC_DISC_STRAD
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_WARD:
+  material: MUSIC_DISC_WARD
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_11:
+  material: MUSIC_DISC_11
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_WAIT:
+  material: MUSIC_DISC_WAIT
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_OTHERSIDE:
+  material: MUSIC_DISC_OTHERSIDE
+  value: 0
+  currency: 0
+  rarity: 0
+MUSIC_DISC_PIGSTEP:
+  material: MUSIC_DISC_PIGSTEP
+  value: 0
+  currency: 0
+  rarity: 0
+TRIDENT:
+  material: TRIDENT
+  value: 0
+  currency: 0
+  rarity: 0
+PHANTOM_MEMBRANE:
+  material: PHANTOM_MEMBRANE
+  value: 0
+  currency: 0
+  rarity: 0
+NAUTILUS_SHELL:
+  material: NAUTILUS_SHELL
+  value: 0
+  currency: 0
+  rarity: 0
+HEART_OF_THE_SEA:
+  material: HEART_OF_THE_SEA
+  value: 0
+  currency: 0
+  rarity: 0
+CROSSBOW:
+  material: CROSSBOW
+  value: 0
+  currency: 0
+  rarity: 0
+SUSPICIOUS_STEW:
+  material: SUSPICIOUS_STEW
+  value: 0
+  currency: 0
+  rarity: 0
+LOOM:
+  material: LOOM
+  value: 0
+  currency: 0
+  rarity: 0
+FLOWER_BANNER_PATTERN:
+  material: FLOWER_BANNER_PATTERN
+  value: 0
+  currency: 0
+  rarity: 0
+CREEPER_BANNER_PATTERN:
+  material: CREEPER_BANNER_PATTERN
+  value: 0
+  currency: 0
+  rarity: 0
+SKULL_BANNER_PATTERN:
+  material: SKULL_BANNER_PATTERN
+  value: 0
+  currency: 0
+  rarity: 0
+MOJANG_BANNER_PATTERN:
+  material: MOJANG_BANNER_PATTERN
+  value: 0
+  currency: 0
+  rarity: 0
+GLOBE_BANNER_PATTERN:
+  material: GLOBE_BANNER_PATTERN
+  value: 0
+  currency: 0
+  rarity: 0
+PIGLIN_BANNER_PATTERN:
+  material: PIGLIN_BANNER_PATTERN
+  value: 0
+  currency: 0
+  rarity: 0
+COMPOSTER:
+  material: COMPOSTER
+  value: 0
+  currency: 0
+  rarity: 0
+BARREL:
+  material: BARREL
+  value: 0
+  currency: 0
+  rarity: 0
+SMOKER:
+  material: SMOKER
+  value: 0
+  currency: 0
+  rarity: 0
+BLAST_FURNACE:
+  material: BLAST_FURNACE
+  value: 0
+  currency: 0
+  rarity: 0
+CARTOGRAPHY_TABLE:
+  material: CARTOGRAPHY_TABLE
+  value: 0
+  currency: 0
+  rarity: 0
+FLETCHING_TABLE:
+  material: FLETCHING_TABLE
+  value: 0
+  currency: 0
+  rarity: 0
+GRINDSTONE:
+  material: GRINDSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+SMITHING_TABLE:
+  material: SMITHING_TABLE
+  value: 0
+  currency: 0
+  rarity: 0
+STONECUTTER:
+  material: STONECUTTER
+  value: 0
+  currency: 0
+  rarity: 0
+BELL:
+  material: BELL
+  value: 0
+  currency: 0
+  rarity: 0
+LANTERN:
+  material: LANTERN
+  value: 0
+  currency: 0
+  rarity: 0
+SOUL_LANTERN:
+  material: SOUL_LANTERN
+  value: 0
+  currency: 0
+  rarity: 0
+SWEET_BERRIES:
+  material: SWEET_BERRIES
+  value: 0
+  currency: 0
+  rarity: 0
+GLOW_BERRIES:
+  material: GLOW_BERRIES
+  value: 0
+  currency: 0
+  rarity: 0
+CAMPFIRE:
+  material: CAMPFIRE
+  value: 0
+  currency: 0
+  rarity: 0
+SOUL_CAMPFIRE:
+  material: SOUL_CAMPFIRE
+  value: 0
+  currency: 0
+  rarity: 0
+SHROOMLIGHT:
+  material: SHROOMLIGHT
+  value: 0
+  currency: 0
+  rarity: 0
+HONEYCOMB:
+  material: HONEYCOMB
+  value: 0
+  currency: 0
+  rarity: 0
+BEE_NEST:
+  material: BEE_NEST
+  value: 0
+  currency: 0
+  rarity: 0
+BEEHIVE:
+  material: BEEHIVE
+  value: 0
+  currency: 0
+  rarity: 0
+HONEY_BOTTLE:
+  material: HONEY_BOTTLE
+  value: 0
+  currency: 0
+  rarity: 0
+HONEYCOMB_BLOCK:
+  material: HONEYCOMB_BLOCK
+  value: 0
+  currency: 0
+  rarity: 0
+LODESTONE:
+  material: LODESTONE
+  value: 0
+  currency: 0
+  rarity: 0
+CRYING_OBSIDIAN:
+  material: CRYING_OBSIDIAN
+  value: 0
+  currency: 0
+  rarity: 0
+BLACKSTONE:
+  material: BLACKSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+BLACKSTONE_SLAB:
+  material: BLACKSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+BLACKSTONE_STAIRS:
+  material: BLACKSTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+GILDED_BLACKSTONE:
+  material: GILDED_BLACKSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE:
+  material: POLISHED_BLACKSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_SLAB:
+  material: POLISHED_BLACKSTONE_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_STAIRS:
+  material: POLISHED_BLACKSTONE_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+CHISELED_POLISHED_BLACKSTONE:
+  material: CHISELED_POLISHED_BLACKSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_BRICKS:
+  material: POLISHED_BLACKSTONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_BRICK_SLAB:
+  material: POLISHED_BLACKSTONE_BRICK_SLAB
+  value: 0
+  currency: 0
+  rarity: 0
+POLISHED_BLACKSTONE_BRICK_STAIRS:
+  material: POLISHED_BLACKSTONE_BRICK_STAIRS
+  value: 0
+  currency: 0
+  rarity: 0
+CRACKED_POLISHED_BLACKSTONE_BRICKS:
+  material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+  value: 0
+  currency: 0
+  rarity: 0
+RESPAWN_ANCHOR:
+  material: RESPAWN_ANCHOR
+  value: 0
+  currency: 0
+  rarity: 0
+CANDLE:
+  material: CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_CANDLE:
+  material: WHITE_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_CANDLE:
+  material: ORANGE_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_CANDLE:
+  material: MAGENTA_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_CANDLE:
+  material: LIGHT_BLUE_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_CANDLE:
+  material: YELLOW_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_CANDLE:
+  material: LIME_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_CANDLE:
+  material: PINK_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_CANDLE:
+  material: GRAY_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_CANDLE:
+  material: LIGHT_GRAY_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_CANDLE:
+  material: CYAN_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_CANDLE:
+  material: PURPLE_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_CANDLE:
+  material: BLUE_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_CANDLE:
+  material: BROWN_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_CANDLE:
+  material: GREEN_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+RED_CANDLE:
+  material: RED_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_CANDLE:
+  material: BLACK_CANDLE
+  value: 0
+  currency: 0
+  rarity: 0
+SMALL_AMETHYST_BUD:
+  material: SMALL_AMETHYST_BUD
+  value: 0
+  currency: 0
+  rarity: 0
+MEDIUM_AMETHYST_BUD:
+  material: MEDIUM_AMETHYST_BUD
+  value: 0
+  currency: 0
+  rarity: 0
+LARGE_AMETHYST_BUD:
+  material: LARGE_AMETHYST_BUD
+  value: 0
+  currency: 0
+  rarity: 0
+AMETHYST_CLUSTER:
+  material: AMETHYST_CLUSTER
+  value: 0
+  currency: 0
+  rarity: 0
+POINTED_DRIPSTONE:
+  material: POINTED_DRIPSTONE
+  value: 0
+  currency: 0
+  rarity: 0
+WATER:
+  material: WATER
+  value: 0
+  currency: 0
+  rarity: 0
+LAVA:
+  material: LAVA
+  value: 0
+  currency: 0
+  rarity: 0
+TALL_SEAGRASS:
+  material: TALL_SEAGRASS
+  value: 0
+  currency: 0
+  rarity: 0
+PISTON_HEAD:
+  material: PISTON_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+MOVING_PISTON:
+  material: MOVING_PISTON
+  value: 0
+  currency: 0
+  rarity: 0
+WALL_TORCH:
+  material: WALL_TORCH
+  value: 0
+  currency: 0
+  rarity: 0
+FIRE:
+  material: FIRE
+  value: 0
+  currency: 0
+  rarity: 0
+SOUL_FIRE:
+  material: SOUL_FIRE
+  value: 0
+  currency: 0
+  rarity: 0
+REDSTONE_WIRE:
+  material: REDSTONE_WIRE
+  value: 0
+  currency: 0
+  rarity: 0
+OAK_WALL_SIGN:
+  material: OAK_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+SPRUCE_WALL_SIGN:
+  material: SPRUCE_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+BIRCH_WALL_SIGN:
+  material: BIRCH_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+ACACIA_WALL_SIGN:
+  material: ACACIA_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+JUNGLE_WALL_SIGN:
+  material: JUNGLE_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+DARK_OAK_WALL_SIGN:
+  material: DARK_OAK_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+REDSTONE_WALL_TORCH:
+  material: REDSTONE_WALL_TORCH
+  value: 0
+  currency: 0
+  rarity: 0
+SOUL_WALL_TORCH:
+  material: SOUL_WALL_TORCH
+  value: 0
+  currency: 0
+  rarity: 0
+NETHER_PORTAL:
+  material: NETHER_PORTAL
+  value: 0
+  currency: 0
+  rarity: 0
+ATTACHED_PUMPKIN_STEM:
+  material: ATTACHED_PUMPKIN_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+ATTACHED_MELON_STEM:
+  material: ATTACHED_MELON_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+PUMPKIN_STEM:
+  material: PUMPKIN_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+MELON_STEM:
+  material: MELON_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+WATER_CAULDRON:
+  material: WATER_CAULDRON
+  value: 0
+  currency: 0
+  rarity: 0
+LAVA_CAULDRON:
+  material: LAVA_CAULDRON
+  value: 0
+  currency: 0
+  rarity: 0
+POWDER_SNOW_CAULDRON:
+  material: POWDER_SNOW_CAULDRON
+  value: 0
+  currency: 0
+  rarity: 0
+END_PORTAL:
+  material: END_PORTAL
+  value: 0
+  currency: 0
+  rarity: 0
+COCOA:
+  material: COCOA
+  value: 0
+  currency: 0
+  rarity: 0
+TRIPWIRE:
+  material: TRIPWIRE
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_OAK_SAPLING:
+  material: POTTED_OAK_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_SPRUCE_SAPLING:
+  material: POTTED_SPRUCE_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_BIRCH_SAPLING:
+  material: POTTED_BIRCH_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_JUNGLE_SAPLING:
+  material: POTTED_JUNGLE_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_ACACIA_SAPLING:
+  material: POTTED_ACACIA_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_DARK_OAK_SAPLING:
+  material: POTTED_DARK_OAK_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_FERN:
+  material: POTTED_FERN
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_DANDELION:
+  material: POTTED_DANDELION
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_POPPY:
+  material: POTTED_POPPY
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_BLUE_ORCHID:
+  material: POTTED_BLUE_ORCHID
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_ALLIUM:
+  material: POTTED_ALLIUM
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_AZURE_BLUET:
+  material: POTTED_AZURE_BLUET
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_RED_TULIP:
+  material: POTTED_RED_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_ORANGE_TULIP:
+  material: POTTED_ORANGE_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_WHITE_TULIP:
+  material: POTTED_WHITE_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_PINK_TULIP:
+  material: POTTED_PINK_TULIP
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_OXEYE_DAISY:
+  material: POTTED_OXEYE_DAISY
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_CORNFLOWER:
+  material: POTTED_CORNFLOWER
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_LILY_OF_THE_VALLEY:
+  material: POTTED_LILY_OF_THE_VALLEY
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_WITHER_ROSE:
+  material: POTTED_WITHER_ROSE
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_RED_MUSHROOM:
+  material: POTTED_RED_MUSHROOM
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_BROWN_MUSHROOM:
+  material: POTTED_BROWN_MUSHROOM
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_DEAD_BUSH:
+  material: POTTED_DEAD_BUSH
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_CACTUS:
+  material: POTTED_CACTUS
+  value: 0
+  currency: 0
+  rarity: 0
+CARROTS:
+  material: CARROTS
+  value: 0
+  currency: 0
+  rarity: 0
+POTATOES:
+  material: POTATOES
+  value: 0
+  currency: 0
+  rarity: 0
+SKELETON_WALL_SKULL:
+  material: SKELETON_WALL_SKULL
+  value: 0
+  currency: 0
+  rarity: 0
+WITHER_SKELETON_WALL_SKULL:
+  material: WITHER_SKELETON_WALL_SKULL
+  value: 0
+  currency: 0
+  rarity: 0
+ZOMBIE_WALL_HEAD:
+  material: ZOMBIE_WALL_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+PLAYER_WALL_HEAD:
+  material: PLAYER_WALL_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+CREEPER_WALL_HEAD:
+  material: CREEPER_WALL_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+DRAGON_WALL_HEAD:
+  material: DRAGON_WALL_HEAD
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_WALL_BANNER:
+  material: WHITE_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_WALL_BANNER:
+  material: ORANGE_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_WALL_BANNER:
+  material: MAGENTA_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_WALL_BANNER:
+  material: LIGHT_BLUE_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_WALL_BANNER:
+  material: YELLOW_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_WALL_BANNER:
+  material: LIME_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_WALL_BANNER:
+  material: PINK_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_WALL_BANNER:
+  material: GRAY_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_WALL_BANNER:
+  material: LIGHT_GRAY_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_WALL_BANNER:
+  material: CYAN_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_WALL_BANNER:
+  material: PURPLE_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_WALL_BANNER:
+  material: BLUE_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_WALL_BANNER:
+  material: BROWN_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_WALL_BANNER:
+  material: GREEN_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+RED_WALL_BANNER:
+  material: RED_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_WALL_BANNER:
+  material: BLACK_WALL_BANNER
+  value: 0
+  currency: 0
+  rarity: 0
+BEETROOTS:
+  material: BEETROOTS
+  value: 0
+  currency: 0
+  rarity: 0
+END_GATEWAY:
+  material: END_GATEWAY
+  value: 0
+  currency: 0
+  rarity: 0
+FROSTED_ICE:
+  material: FROSTED_ICE
+  value: 0
+  currency: 0
+  rarity: 0
+KELP_PLANT:
+  material: KELP_PLANT
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_TUBE_CORAL_WALL_FAN:
+  material: DEAD_TUBE_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BRAIN_CORAL_WALL_FAN:
+  material: DEAD_BRAIN_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_BUBBLE_CORAL_WALL_FAN:
+  material: DEAD_BUBBLE_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_FIRE_CORAL_WALL_FAN:
+  material: DEAD_FIRE_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+DEAD_HORN_CORAL_WALL_FAN:
+  material: DEAD_HORN_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+TUBE_CORAL_WALL_FAN:
+  material: TUBE_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+BRAIN_CORAL_WALL_FAN:
+  material: BRAIN_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+BUBBLE_CORAL_WALL_FAN:
+  material: BUBBLE_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+FIRE_CORAL_WALL_FAN:
+  material: FIRE_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+HORN_CORAL_WALL_FAN:
+  material: HORN_CORAL_WALL_FAN
+  value: 0
+  currency: 0
+  rarity: 0
+BAMBOO_SAPLING:
+  material: BAMBOO_SAPLING
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_BAMBOO:
+  material: POTTED_BAMBOO
+  value: 0
+  currency: 0
+  rarity: 0
+VOID_AIR:
+  material: VOID_AIR
+  value: 0
+  currency: 0
+  rarity: 0
+CAVE_AIR:
+  material: CAVE_AIR
+  value: 0
+  currency: 0
+  rarity: 0
+BUBBLE_COLUMN:
+  material: BUBBLE_COLUMN
+  value: 0
+  currency: 0
+  rarity: 0
+SWEET_BERRY_BUSH:
+  material: SWEET_BERRY_BUSH
+  value: 0
+  currency: 0
+  rarity: 0
+WEEPING_VINES_PLANT:
+  material: WEEPING_VINES_PLANT
+  value: 0
+  currency: 0
+  rarity: 0
+TWISTING_VINES_PLANT:
+  material: TWISTING_VINES_PLANT
+  value: 0
+  currency: 0
+  rarity: 0
+CRIMSON_WALL_SIGN:
+  material: CRIMSON_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+WARPED_WALL_SIGN:
+  material: WARPED_WALL_SIGN
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_CRIMSON_FUNGUS:
+  material: POTTED_CRIMSON_FUNGUS
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_WARPED_FUNGUS:
+  material: POTTED_WARPED_FUNGUS
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_CRIMSON_ROOTS:
+  material: POTTED_CRIMSON_ROOTS
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_WARPED_ROOTS:
+  material: POTTED_WARPED_ROOTS
+  value: 0
+  currency: 0
+  rarity: 0
+CANDLE_CAKE:
+  material: CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+WHITE_CANDLE_CAKE:
+  material: WHITE_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+ORANGE_CANDLE_CAKE:
+  material: ORANGE_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+MAGENTA_CANDLE_CAKE:
+  material: MAGENTA_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_BLUE_CANDLE_CAKE:
+  material: LIGHT_BLUE_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+YELLOW_CANDLE_CAKE:
+  material: YELLOW_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+LIME_CANDLE_CAKE:
+  material: LIME_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+PINK_CANDLE_CAKE:
+  material: PINK_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+GRAY_CANDLE_CAKE:
+  material: GRAY_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+LIGHT_GRAY_CANDLE_CAKE:
+  material: LIGHT_GRAY_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+CYAN_CANDLE_CAKE:
+  material: CYAN_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+PURPLE_CANDLE_CAKE:
+  material: PURPLE_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+BLUE_CANDLE_CAKE:
+  material: BLUE_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+BROWN_CANDLE_CAKE:
+  material: BROWN_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+GREEN_CANDLE_CAKE:
+  material: GREEN_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+RED_CANDLE_CAKE:
+  material: RED_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+BLACK_CANDLE_CAKE:
+  material: BLACK_CANDLE_CAKE
+  value: 0
+  currency: 0
+  rarity: 0
+POWDER_SNOW:
+  material: POWDER_SNOW
+  value: 0
+  currency: 0
+  rarity: 0
+CAVE_VINES:
+  material: CAVE_VINES
+  value: 0
+  currency: 0
+  rarity: 0
+CAVE_VINES_PLANT:
+  material: CAVE_VINES_PLANT
+  value: 0
+  currency: 0
+  rarity: 0
+BIG_DRIPLEAF_STEM:
+  material: BIG_DRIPLEAF_STEM
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_AZALEA_BUSH:
+  material: POTTED_AZALEA_BUSH
+  value: 0
+  currency: 0
+  rarity: 0
+POTTED_FLOWERING_AZALEA_BUSH:
+  material: POTTED_FLOWERING_AZALEA_BUSH
+  value: 0
+  currency: 0
+  rarity: 0

@@ -1,0 +1,11 @@
+name: JirocraftPlugin
+version: '${project.version}'
+main: me.jiroscopio.jirocraftplugin.JirocraftPlugin
+api-version: 1.18
+authors: [ Jiroscopio ]
+description: The ultimate Minecraft experience
+load: STARTUP
+commands:
+  zones:
+    description: Shows all the difficulties of the world zones.
+    usage: /<command>
