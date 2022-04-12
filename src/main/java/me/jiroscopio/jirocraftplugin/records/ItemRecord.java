@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.UUID;
 
 public record ItemRecord(String id, String name, Material base_material, int value, int currency, int rarity, int modelData,
-                         String lore, ArrayList<String> tags, String family, ToolType tool_type, int tool_power) {
+                         ArrayList<String> lore, ArrayList<String> tags, String family, ToolType tool_type, int tool_power) {
 
     public ItemStack getItemStack(ItemStack source, JirocraftPlugin plugin) {
         ItemStack itemStack = source;
@@ -49,8 +49,9 @@ public record ItemRecord(String id, String name, Material base_material, int val
         // if glow is true, we want the item to have the enchantment glowing effect
         if (tags.contains("glow")) itemMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 
-        if (lore != null) {
-            itemLore.add(ChatColor.DARK_GRAY + lore);
+        if (!lore.isEmpty()) {
+            for (String line : lore)
+                itemLore.add(ChatColor.GRAY + line);
         }
 
         if (value > 0) {

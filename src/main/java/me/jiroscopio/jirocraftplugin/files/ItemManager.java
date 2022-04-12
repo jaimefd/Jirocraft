@@ -22,7 +22,7 @@ public class ItemManager extends FileManager{
         int rarity;
         int modelData;
         int tool_power;
-        String lore;
+        ArrayList<String> lore;
         ArrayList<String> tags;
         String family;
         ToolType tool_type;
@@ -34,7 +34,7 @@ public class ItemManager extends FileManager{
             currency = 0;
             rarity = 0;
             modelData = 0;
-            lore = null;
+            lore = new ArrayList<>();
             family = null;
             tool_type = ToolType.ANY;
             tool_power = 0;
@@ -54,7 +54,7 @@ public class ItemManager extends FileManager{
             if (this.getConfig().contains(key + ".modelData"))
                 modelData = this.getConfig().getInt(key + ".modelData");
             if (this.getConfig().contains(key + ".lore"))
-                lore = this.getConfig().getString(key + ".lore");
+                lore = (ArrayList<String>) this.getConfig().getStringList(key + ".lore");
             if (this.getConfig().contains(key + ".tags")) {
                 tags.addAll(this.getConfig().getStringList(key + ".tags"));
             }

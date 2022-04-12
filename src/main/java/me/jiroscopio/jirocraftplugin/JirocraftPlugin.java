@@ -3,9 +3,10 @@ package me.jiroscopio.jirocraftplugin;
 import me.jiroscopio.jirocraftplugin.commands.ZonesCommand;
 import me.jiroscopio.jirocraftplugin.files.*;
 import me.jiroscopio.jirocraftplugin.helpers.ZoneGenerator;
-import me.jiroscopio.jirocraftplugin.listeners.JoinListener;
 import me.jiroscopio.jirocraftplugin.listeners.BlockBreakListener;
 import me.jiroscopio.jirocraftplugin.listeners.PickupItemListener;
+import me.jiroscopio.jirocraftplugin.listeners.PlayerInteractListener;
+import me.jiroscopio.jirocraftplugin.listeners.PlayerJoinListener;
 import me.jiroscopio.jirocraftplugin.populators.*;
 import me.jiroscopio.jirocraftplugin.records.BlockRecord;
 import me.jiroscopio.jirocraftplugin.records.FacingRecord;
@@ -18,10 +19,8 @@ import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.world.WorldInitEvent;
-import org.bukkit.generator.BlockPopulator;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scoreboard.Scoreboard;
-import org.bukkit.scoreboard.Team;
 
 import java.util.HashMap;
 
@@ -58,7 +57,8 @@ public final class JirocraftPlugin extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
         getServer().getPluginManager().registerEvents(new BlockBreakListener(this), this);
         //getServer().getPluginManager().registerEvents(new ChunkPopulateListener(), this);
-        getServer().getPluginManager().registerEvents(new JoinListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerJoinListener(this), this);
+        getServer().getPluginManager().registerEvents(new PlayerInteractListener(this), this);
         getServer().getPluginManager().registerEvents(new PickupItemListener(this), this);
 
         getCommand("zones").setExecutor(new ZonesCommand(this));

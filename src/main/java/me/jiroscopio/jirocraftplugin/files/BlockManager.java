@@ -5,7 +5,6 @@ import me.jiroscopio.jirocraftplugin.enums.ToolType;
 import me.jiroscopio.jirocraftplugin.records.BlockRecord;
 import org.bukkit.Material;
 import org.bukkit.block.BlockFace;
-import org.bukkit.configuration.ConfigurationSection;
 
 import java.util.ArrayList;
 

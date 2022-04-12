@@ -6133,3 +6133,10 @@ POTTED_FLOWERING_AZALEA_BUSH:
   value: 0
   currency: 0
   rarity: 0
+PROFILE_VIEWER:
+  name: Profile Viewer
+  lore: Right click to view your profile. You can also do /pf or /profile.
+  material: PLAYER_HEAD
+  value: 0
+  currency: 0
+  rarity: 1
