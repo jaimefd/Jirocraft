@@ -1,6 +1,7 @@
 package me.jiroscopio.jirocraftplugin.enums;
 
 public enum Rarity {
+    NONE,
     BASIC,
     COMMON,
     UNCOMMON,

@@ -1,7 +1,7 @@
 package me.jiroscopio.jirocraftplugin.files;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
-import me.jiroscopio.jirocraftplugin.enums.ToolType;
+import me.jiroscopio.jirocraftplugin.enums.ItemType;
 import me.jiroscopio.jirocraftplugin.records.BlockRecord;
 import org.bukkit.Material;
 import org.bukkit.block.BlockFace;
@@ -16,14 +16,14 @@ public class BlockManager extends FileManager {
 
     public void setupManager() {
         ArrayList<String> drops;
-        ToolType tool;
+        ItemType tool;
         int tool_tier;
         Material source;
         BlockFace facing;
 
         for (String key : this.getConfig().getKeys(false)) {
             drops = new ArrayList<>();
-            tool = ToolType.ANY;
+            tool = ItemType.ANY;
             tool_tier = 0;
             source = null;
             facing = null;
@@ -37,7 +37,7 @@ public class BlockManager extends FileManager {
                 String tool_value = this.getConfig().getString(key + ".tool");
                 if (tool_value != null) {
                     if (tool_value.equals("NONE")) tool = null;
-                    else tool = ToolType.valueOf(tool_value);
+                    else tool = ItemType.valueOf(tool_value);
                 }
             }
 

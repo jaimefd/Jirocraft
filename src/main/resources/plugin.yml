@@ -9,3 +9,6 @@ commands:
   zones:
     description: Shows all the difficulties of the world zones.
     usage: /<command>
+  get-item:
+    description: Give yourself a specific item, including custom ones.
+    usage: /<command> item_name amount

@@ -1,0 +1,5 @@
+SILVER_ORE:
+  tool: PICKAXE
+  tool_tier: 2
+  source: RED_GLAZED_TERRACOTTA
+  facing: EAST

@@ -2,7 +2,8 @@ package me.jiroscopio.jirocraftplugin.listeners;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
 import me.jiroscopio.jirocraftplugin.helpers.ItemHelper;
-import me.jiroscopio.jirocraftplugin.managers.ProfileManager;
+import me.jiroscopio.jirocraftplugin.guis.MenuManager;
+import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -48,11 +49,22 @@ public class PlayerInteractListener implements Listener {
 
         if (e.getAction().equals(Action.RIGHT_CLICK_AIR) || e.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
             if (clickedItem.getType() != Material.AIR) {
-                String clickedItemName = ItemHelper.getItemType(plugin, clickedItem);
-                if (clickedItemName.equals("PROFILE_VIEWER")) {
-                    player.sendMessage(ChatColor.GRAY + "Remember that you can also use /pf or /profile instead!");
-                    player.playSound(player.getLocation(), Sound.BLOCK_WOODEN_BUTTON_CLICK_ON, 1, 1);
-                    ProfileManager.viewProfile(player);
+                String itemName = ItemHelper.getItemType(plugin, clickedItem);
+                if (itemName.contains("HELMET") || itemName.contains("CHESTPLATE") || itemName.contains("LEGGINGS") || itemName.contains("BOOTS"))
+                    PlayerRpg.getRpgPlayer(player, plugin).delayedUpdate();
+
+                if (itemName.equals("MAIN_MENU")) {
+                    e.setCancelled(true);
+                    player.sendMessage(ChatColor.GRAY + "Remember that you can also use /menu instead!");
+                    player.playSound(player.getLocation(), Sound.UI_BUTTON_CLICK, 0.5F, 1F);
+                    MenuManager.viewMenu(plugin, player);
+                } else {
+                    // if it doesn't match anything else, check if it's equippable
+                    ItemRecord itemRecord = plugin.itemRecords.get(itemName);
+                    if (itemRecord != null) {
+                        itemRecord.type().equip(player, clickedItem, e.getHand());
+                        PlayerRpg.getRpgPlayer(player, plugin).delayedUpdate();
+                    }
                 }
             }
         }

@@ -1,0 +1,19 @@
+silver_ore:
+  0:
+    chance: 100.0
+    tool: true
+    rolls:
+      type: poisson
+      min: 1
+      chance: 20.0
+    entry:
+      type: item
+      item: RAW_SILVER
+  1:
+    chance: 0.1
+    tool: true
+    looting_multiplier: 0.0
+    entry:
+      type: item
+      item: SILVER_ESSENCE
+      announce: 2

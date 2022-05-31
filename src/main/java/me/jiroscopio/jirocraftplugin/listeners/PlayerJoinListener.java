@@ -2,6 +2,7 @@ package me.jiroscopio.jirocraftplugin.listeners;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
 import me.jiroscopio.jirocraftplugin.helpers.ItemHelper;
+import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -23,10 +24,12 @@ public class PlayerJoinListener implements Listener {
         String FILE_ID = "1Yycs-ofCdCXvTIM1yR-gXQ6eKs7nDOUr";
         p.setResourcePack("https://drive.google.com/uc?export=download&id=" + FILE_ID);
 
+        PlayerRpg.registerRpgPlayer(p, this.plugin);
+
         if (!p.hasPlayedBefore()) {
-            ItemRecord profile_viewer = plugin.itemRecords.get("PROFILE_VIEWER");
-            if (profile_viewer != null)
-                p.getInventory().addItem(profile_viewer.getItemStack(null, plugin));
+            ItemRecord main_menu = plugin.itemRecords.get("MAIN_MENU");
+            if (main_menu != null)
+                p.getInventory().addItem(main_menu.getItemStack(null, plugin));
         }
     }
 

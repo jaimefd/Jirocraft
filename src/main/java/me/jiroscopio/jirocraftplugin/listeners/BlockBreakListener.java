@@ -2,7 +2,7 @@ package me.jiroscopio.jirocraftplugin.listeners;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
 import me.jiroscopio.jirocraftplugin.enums.Rarity;
-import me.jiroscopio.jirocraftplugin.enums.ToolType;
+import me.jiroscopio.jirocraftplugin.enums.ItemType;
 import me.jiroscopio.jirocraftplugin.helpers.ItemHelper;
 import me.jiroscopio.jirocraftplugin.records.BlockRecord;
 import me.jiroscopio.jirocraftplugin.records.FacingRecord;
@@ -18,20 +18,16 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.data.BlockData;
 import org.bukkit.block.data.Directional;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
-import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.scoreboard.Scoreboard;
 import org.bukkit.scoreboard.Team;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 import java.util.Random;
 
@@ -68,12 +64,12 @@ public class BlockBreakListener implements Listener {
 
         // Stop player from breaking custom blocks with a lower tier tool
         if (blockRecord != null) {
-            if (blockRecord.tool() != ToolType.ANY) {
+            if (blockRecord.tool() != ItemType.ANY) {
                 ItemStack main_hand_item = p.getInventory().getItemInMainHand();
                 String item_type = ItemHelper.getItemType(this.plugin, main_hand_item);
                 ItemRecord tool_record =  this.plugin.itemRecords.get(item_type);
                 if (tool_record != null) {
-                    if (tool_record.tool_type() == blockRecord.tool()) {
+                    if (tool_record.type() == blockRecord.tool()) {
                         if (tool_record.tool_power() < blockRecord.tool_tier()) {
                             p.sendMessage(ChatColor.RED + "You need a better tool to break this block!");
                             e.setCancelled(true);
@@ -105,12 +101,12 @@ public class BlockBreakListener implements Listener {
 
             for (DropsRecord dropSet : dropsRecord) {
                 for (DropPool pool : dropSet.pools()) {
-                    if (blockRecord != null && pool.tool() && blockRecord.tool() != ToolType.ANY) {
+                    if (blockRecord != null && pool.tool() && blockRecord.tool() != ItemType.ANY) {
                         ItemStack main_hand_item = p.getInventory().getItemInMainHand();
                         String item_type = ItemHelper.getItemType(this.plugin, main_hand_item);
                         ItemRecord tool_record =  this.plugin.itemRecords.get(item_type);
                         if (tool_record == null) continue;
-                        if (tool_record.tool_type() != blockRecord.tool()) continue;
+                        if (tool_record.type() != blockRecord.tool()) continue;
                         if (tool_record.tool_power() < pool.tool_power_min()) continue;
                         if (tool_record.tool_power() > pool.tool_power_max() && pool.tool_power_max() > 0) continue;
                     }

@@ -1,0 +1,16 @@
+raw_silver_family:
+  base: RAW_SILVER
+  upgrade: 128
+  tiers:
+    0: RAW_SILVER
+    1: RAW_SILVER_RARE
+    2: RAW_SILVER_SHINY
+    3: RAW_SILVER_PURE
+granite_family:
+  base: GRANITE
+  upgrade: 128
+  tiers:
+    0: GRANITE
+    1: GRANITE_RARE
+    2: GRANITE_SHINY
+    3: GRANITE_PURE

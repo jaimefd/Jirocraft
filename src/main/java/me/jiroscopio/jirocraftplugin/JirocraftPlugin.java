@@ -1,21 +1,20 @@
 package me.jiroscopio.jirocraftplugin;
 
+import me.jiroscopio.jirocraftplugin.commands.GetItemCommand;
 import me.jiroscopio.jirocraftplugin.commands.ZonesCommand;
 import me.jiroscopio.jirocraftplugin.files.*;
+import me.jiroscopio.jirocraftplugin.helpers.BaseYmlGenerator;
 import me.jiroscopio.jirocraftplugin.helpers.ZoneGenerator;
-import me.jiroscopio.jirocraftplugin.listeners.BlockBreakListener;
-import me.jiroscopio.jirocraftplugin.listeners.PickupItemListener;
-import me.jiroscopio.jirocraftplugin.listeners.PlayerInteractListener;
-import me.jiroscopio.jirocraftplugin.listeners.PlayerJoinListener;
+import me.jiroscopio.jirocraftplugin.listeners.*;
+import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
 import me.jiroscopio.jirocraftplugin.populators.*;
 import me.jiroscopio.jirocraftplugin.records.BlockRecord;
 import me.jiroscopio.jirocraftplugin.records.FacingRecord;
 import me.jiroscopio.jirocraftplugin.records.FamilyRecord;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
 import me.jiroscopio.jirocraftplugin.records.drops.DropsRecord;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
+import org.bukkit.*;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.world.WorldInitEvent;
@@ -23,6 +22,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scoreboard.Scoreboard;
 
 import java.util.HashMap;
+import java.util.UUID;
 
 public final class JirocraftPlugin extends JavaPlugin implements Listener {
 
@@ -39,9 +39,16 @@ public final class JirocraftPlugin extends JavaPlugin implements Listener {
     public HashMap<String, DropsRecord> dropRecords = new HashMap<>();
     public HashMap<String, FamilyRecord> familyRecords = new HashMap<>();
 
+    public HashMap<UUID, PlayerRpg> rpgPlayers = new HashMap<>();
+
     @Override
     public void onEnable() {
         System.out.println("Jirocraft plugin enabled");
+
+        // no losing items in this mode
+        for(World world : getServer().getWorlds()) {
+            world.setGameRule(GameRule.KEEP_INVENTORY, true);
+        }
 
         this.itemManager = new ItemManager(this, "items.yml");
         this.itemManager.setupManager();
@@ -54,14 +61,20 @@ public final class JirocraftPlugin extends JavaPlugin implements Listener {
         this.dropsManager = new DropsManager(this, "drops.yml");
         this.dropsManager.setupManager();
 
+        //BaseYmlGenerator.generateItemYml(this);
+
         getServer().getPluginManager().registerEvents(this, this);
         getServer().getPluginManager().registerEvents(new BlockBreakListener(this), this);
         //getServer().getPluginManager().registerEvents(new ChunkPopulateListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(this), this);
         getServer().getPluginManager().registerEvents(new PlayerInteractListener(this), this);
         getServer().getPluginManager().registerEvents(new PickupItemListener(this), this);
+        getServer().getPluginManager().registerEvents(new PlayerDropItemListener(this), this);
+        getServer().getPluginManager().registerEvents(new InventoryClickListener(this), this);
+        getServer().getPluginManager().registerEvents(new PlayerItemHeldListener(this), this);
 
         getCommand("zones").setExecutor(new ZonesCommand(this));
+        getCommand("get-item").setExecutor(new GetItemCommand(this));
 
         zoneGenerator = new ZoneGenerator(32,7);
     }

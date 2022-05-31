@@ -1,11 +1,14 @@
 package me.jiroscopio.jirocraftplugin.files;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
-import me.jiroscopio.jirocraftplugin.enums.ToolType;
+import me.jiroscopio.jirocraftplugin.enums.ItemType;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
 import org.bukkit.Material;
+import org.bukkit.configuration.ConfigurationSection;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 public class ItemManager extends FileManager{
@@ -25,20 +28,28 @@ public class ItemManager extends FileManager{
         ArrayList<String> lore;
         ArrayList<String> tags;
         String family;
-        ToolType tool_type;
+        ItemType type;
+        String head_owner; String head_value;
+        Map<String,Float> stats;
+        ConfigurationSection stats_section;
+        int damage, damage_variance;
 
         for (String key : this.getConfig().getKeys(false)) {
             name = null;
             material = Material.getMaterial(key);
             value = 0;
             currency = 0;
-            rarity = 0;
+            rarity = -1;
             modelData = 0;
             lore = new ArrayList<>();
             family = null;
-            tool_type = ToolType.ANY;
+            type = ItemType.ANY;
             tool_power = 0;
             tags = new ArrayList<>();
+            head_owner = null; head_value = null;
+            stats = null;
+            damage = 5;
+            damage_variance = 0;
 
             if (this.getConfig().contains(key + ".name"))
                 name = this.getConfig().getString(key + ".name");
@@ -60,17 +71,36 @@ public class ItemManager extends FileManager{
             }
             if (this.getConfig().contains(key + ".family"))
                 family = this.getConfig().getString(key + ".family");
-            if (this.getConfig().contains(key + ".tool_type")) {
-                String tool_value = this.getConfig().getString(key + ".tool_type");
+            if (this.getConfig().contains(key + ".head.owner"))
+                head_owner = this.getConfig().getString(key + ".head.owner");
+            if (this.getConfig().contains(key + ".head.value"))
+                head_value = this.getConfig().getString(key + ".head.value");
+            if (this.getConfig().contains(key + ".type")) {
+                String tool_value = this.getConfig().getString(key + ".type");
                 if (tool_value != null) {
-                    if (tool_value.equals("NONE")) tool_type = null;
-                    else tool_type = ToolType.valueOf(tool_value);
+                    if (tool_value.equals("NONE")) type = null;
+                    else type = ItemType.valueOf(tool_value);
                 }
             }
             if (this.getConfig().contains(key + ".tool_power"))
                 tool_power = this.getConfig().getInt(key + ".tool_power");
 
-            ItemRecord item = new ItemRecord(key, name, material, value, currency, rarity, modelData, lore, tags, family, tool_type, tool_power);
+            if (this.getConfig().contains(key + ".stats")) {
+                stats_section = this.getConfig().getConfigurationSection(key + ".stats");
+                if (stats_section == null) continue;
+                stats = new HashMap<>();
+                for (String stat : stats_section.getKeys(false)) {
+                    stats.put(stat, Float.parseFloat(Objects.requireNonNull(stats_section.getString(stat))));
+                }
+            }
+
+            if (this.getConfig().contains(key + ".damage"))
+                damage = this.getConfig().getInt(key + ".damage");
+            if (this.getConfig().contains(key + ".damage_variance"))
+                damage_variance = this.getConfig().getInt(key + ".damage_variance");
+
+            ItemRecord item = new ItemRecord(key, name, material, value, currency, rarity,
+                    modelData, lore, tags, family, type, tool_power, head_owner, head_value, stats, damage, damage_variance);
 
             this.plugin.itemRecords.put(key, item);
         }
