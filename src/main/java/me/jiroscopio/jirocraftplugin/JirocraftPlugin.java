@@ -3,10 +3,10 @@ package me.jiroscopio.jirocraftplugin;
 import me.jiroscopio.jirocraftplugin.commands.GetItemCommand;
 import me.jiroscopio.jirocraftplugin.commands.ZonesCommand;
 import me.jiroscopio.jirocraftplugin.files.*;
-import me.jiroscopio.jirocraftplugin.helpers.BaseYmlGenerator;
 import me.jiroscopio.jirocraftplugin.helpers.ZoneGenerator;
 import me.jiroscopio.jirocraftplugin.listeners.*;
-import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
+import me.jiroscopio.jirocraftplugin.models.RpgEntity;
+import me.jiroscopio.jirocraftplugin.models.RpgPlayer;
 import me.jiroscopio.jirocraftplugin.populators.*;
 import me.jiroscopio.jirocraftplugin.records.BlockRecord;
 import me.jiroscopio.jirocraftplugin.records.FacingRecord;
@@ -14,7 +14,6 @@ import me.jiroscopio.jirocraftplugin.records.FamilyRecord;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
 import me.jiroscopio.jirocraftplugin.records.drops.DropsRecord;
 import org.bukkit.*;
-import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.world.WorldInitEvent;
@@ -39,7 +38,8 @@ public final class JirocraftPlugin extends JavaPlugin implements Listener {
     public HashMap<String, DropsRecord> dropRecords = new HashMap<>();
     public HashMap<String, FamilyRecord> familyRecords = new HashMap<>();
 
-    public HashMap<UUID, PlayerRpg> rpgPlayers = new HashMap<>();
+    public HashMap<UUID, RpgPlayer> rpgPlayers = new HashMap<>();
+    public HashMap<UUID, RpgEntity> rpgEntities = new HashMap<>();
 
     @Override
     public void onEnable() {

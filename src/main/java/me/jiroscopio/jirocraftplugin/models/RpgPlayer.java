@@ -3,6 +3,7 @@ package me.jiroscopio.jirocraftplugin.models;
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
 import me.jiroscopio.jirocraftplugin.helpers.ItemHelper;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
+import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.EquipmentSlot;
@@ -13,9 +14,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-import java.util.UUID;
 
-public class PlayerRpg {
+public class RpgPlayer {
 
     private final Player bukkitPlayer;
     private JirocraftPlugin plugin;
@@ -27,7 +27,7 @@ public class PlayerRpg {
     private float health;
     private float mana;
 
-    public PlayerRpg(Player player, JirocraftPlugin plugin) {
+    public RpgPlayer(Player player, JirocraftPlugin plugin) {
         this.bukkitPlayer = player;
         this.plugin = plugin;
         this.updateStats();
@@ -37,13 +37,13 @@ public class PlayerRpg {
         return stats;
     }
 
-    public static PlayerRpg getRpgPlayer (Player player, JirocraftPlugin plugin) {
+    public static RpgPlayer getRpgPlayer (Player player, JirocraftPlugin plugin) {
         if (plugin.rpgPlayers.containsKey(player.getUniqueId())) return plugin.rpgPlayers.get(player.getUniqueId());
         else return registerRpgPlayer(player, plugin);
     }
 
-    public static PlayerRpg registerRpgPlayer (Player player, JirocraftPlugin plugin) {
-        PlayerRpg newRpg = new PlayerRpg(player, plugin);
+    public static RpgPlayer registerRpgPlayer (Player player, JirocraftPlugin plugin) {
+        RpgPlayer newRpg = new RpgPlayer(player, plugin);
         plugin.rpgPlayers.put(player.getUniqueId(), newRpg);
         return newRpg;
     }
@@ -64,7 +64,7 @@ public class PlayerRpg {
         new BukkitRunnable(){
             @Override
             public void run(){
-                PlayerRpg.getRpgPlayer(bukkitPlayer, plugin).updateStats();
+                RpgPlayer.getRpgPlayer(bukkitPlayer, plugin).updateStats();
             }
         }.runTaskLater(plugin, 1);
     }
@@ -87,6 +87,7 @@ public class PlayerRpg {
 
     public void addStats(ItemStack stack, EquipmentSlot slot) {
         if (stack == null) return;
+        if (stack.getType().equals(Material.AIR)) return;
         String item_type = ItemHelper.getItemType(this.plugin, stack);
         ItemRecord item_record = this.plugin.itemRecords.get(item_type);
         if (item_record == null) return;

@@ -1,7 +1,6 @@
 package me.jiroscopio.jirocraftplugin.helpers;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
-import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -12,8 +11,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
-
-import java.util.UUID;
 
 public class ItemHelper {
 
@@ -48,6 +45,7 @@ public class ItemHelper {
     public static ItemStack getBackgroundItem() {
         ItemStack backgroundItem = new ItemStack(Material.GRAY_STAINED_GLASS_PANE);
         ItemMeta backgroundMeta = backgroundItem.getItemMeta();
+        if (backgroundMeta == null) return backgroundItem;
         backgroundMeta.setDisplayName(ChatColor.RESET + "");
         backgroundItem.setItemMeta(backgroundMeta);
         return backgroundItem;

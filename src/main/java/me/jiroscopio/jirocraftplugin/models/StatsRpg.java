@@ -17,10 +17,10 @@ public class StatsRpg {
     public float mana_regen = 0.5F; // Percentage of mana recovered per second (recover ticks happen every 4 seconds though)
 
     // Damage stats
-    public float attack_power = 0F; // Extra damage for melee hits or arrows - Physical Damage
+    public float physical_power = 0F; // Extra damage for melee hits or arrows - Physical Damage
     public float spell_power = 0F; // Extra damage for magic abilities (spells that usually cost mana) - Magic Damage
 
-    public float crit_chance = 5F;
+    public float crit_chance = 0F;
     public float crit_damage = 50F;
     public float sorcery = 0F; // Turns magic damage done into extra true damage
 
@@ -31,7 +31,7 @@ public class StatsRpg {
     public float reload_speed = 0F; // Speed at which ranged weapons recharge (bows) or shoot (guns)
     public float casting_speed = 0F; // Reduced cooldown for spells
 
-    public float phys_pen = 0F; // Percentage of physical defense ignored
+    public float physical_pen = 0F; // Percentage of physical defense ignored
     public float magic_pen = 0F; // Percentage of magic defense ignoredd
 
     public float phys_lethality = 0F; // Flat physical defense ignored
@@ -49,7 +49,7 @@ public class StatsRpg {
     public float spell_drain = 0F;
 
     // Defense stats
-    public float phys_defense = 0F;
+    public float physical_defense = 0F;
     public float magic_defense = 0F;
 
     public float knockback_resistance = 0F;

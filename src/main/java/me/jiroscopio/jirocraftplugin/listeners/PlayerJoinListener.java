@@ -1,10 +1,8 @@
 package me.jiroscopio.jirocraftplugin.listeners;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
-import me.jiroscopio.jirocraftplugin.helpers.ItemHelper;
-import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
+import me.jiroscopio.jirocraftplugin.models.RpgPlayer;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -24,7 +22,7 @@ public class PlayerJoinListener implements Listener {
         String FILE_ID = "1Yycs-ofCdCXvTIM1yR-gXQ6eKs7nDOUr";
         p.setResourcePack("https://drive.google.com/uc?export=download&id=" + FILE_ID);
 
-        PlayerRpg.registerRpgPlayer(p, this.plugin);
+        RpgPlayer.registerRpgPlayer(p, this.plugin);
 
         if (!p.hasPlayedBefore()) {
             ItemRecord main_menu = plugin.itemRecords.get("MAIN_MENU");

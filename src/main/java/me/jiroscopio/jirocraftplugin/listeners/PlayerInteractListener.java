@@ -3,7 +3,7 @@ package me.jiroscopio.jirocraftplugin.listeners;
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
 import me.jiroscopio.jirocraftplugin.helpers.ItemHelper;
 import me.jiroscopio.jirocraftplugin.guis.MenuManager;
-import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
+import me.jiroscopio.jirocraftplugin.models.RpgPlayer;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -51,7 +51,7 @@ public class PlayerInteractListener implements Listener {
             if (clickedItem.getType() != Material.AIR) {
                 String itemName = ItemHelper.getItemType(plugin, clickedItem);
                 if (itemName.contains("HELMET") || itemName.contains("CHESTPLATE") || itemName.contains("LEGGINGS") || itemName.contains("BOOTS"))
-                    PlayerRpg.getRpgPlayer(player, plugin).delayedUpdate();
+                    RpgPlayer.getRpgPlayer(player, plugin).delayedUpdate();
 
                 if (itemName.equals("MAIN_MENU")) {
                     e.setCancelled(true);
@@ -63,7 +63,7 @@ public class PlayerInteractListener implements Listener {
                     ItemRecord itemRecord = plugin.itemRecords.get(itemName);
                     if (itemRecord != null) {
                         itemRecord.type().equip(player, clickedItem, e.getHand());
-                        PlayerRpg.getRpgPlayer(player, plugin).delayedUpdate();
+                        RpgPlayer.getRpgPlayer(player, plugin).delayedUpdate();
                     }
                 }
             }

@@ -1,11 +1,10 @@
 package me.jiroscopio.jirocraftplugin.listeners;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
-import me.jiroscopio.jirocraftplugin.models.PlayerRpg;
+import me.jiroscopio.jirocraftplugin.models.RpgPlayer;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerItemHeldEvent;
-import org.bukkit.event.player.PlayerJoinEvent;
 
 public class PlayerItemHeldListener implements Listener {
 
@@ -17,6 +16,6 @@ public class PlayerItemHeldListener implements Listener {
 
     @EventHandler
     public void onPlayerItemHeld(PlayerItemHeldEvent e) {
-        PlayerRpg.getRpgPlayer(e.getPlayer(), plugin).delayedUpdate();
+        RpgPlayer.getRpgPlayer(e.getPlayer(), plugin).delayedUpdate();
     }
 }
