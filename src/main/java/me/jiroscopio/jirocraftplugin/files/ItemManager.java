@@ -39,7 +39,7 @@ public class ItemManager extends FileManager{
             material = Material.getMaterial(key);
             value = 0;
             currency = 0;
-            rarity = -1;
+            rarity = 0;
             modelData = 0;
             lore = new ArrayList<>();
             family = null;
@@ -48,7 +48,7 @@ public class ItemManager extends FileManager{
             tags = new ArrayList<>();
             head_owner = null; head_value = null;
             stats = null;
-            damage = 5;
+            damage = 10;
             damage_variance = 0;
 
             if (this.getConfig().contains(key + ".name"))

@@ -5,27 +5,41 @@ import me.jiroscopio.jirocraftplugin.helpers.ItemHelper;
 import me.jiroscopio.jirocraftplugin.models.RpgEntity;
 import me.jiroscopio.jirocraftplugin.models.RpgPlayer;
 import me.jiroscopio.jirocraftplugin.records.ItemRecord;
+import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.potion.PotionEffectType;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 public class CombatManager {
 
-    public static double playerMeleeAttack(Player damager, Entity damaged, ItemStack weapon, JirocraftPlugin plugin, String... args) {
-        double finalDamage;
+    public static class DamageInstance {
+        public int damage;
+        public boolean crit;
+    }
+
+    public static boolean isCritical(Player player)
+    {
+        return
+                player.getFallDistance() > 0.0F &&
+                        !player.isOnGround() &&
+                        !player.isInsideVehicle() &&
+                        !player.hasPotionEffect(PotionEffectType.BLINDNESS) &&
+                        player.getLocation().getBlock().getType() != Material.LADDER &&
+                        player.getLocation().getBlock().getType() != Material.VINE;
+    }
+
+    public static DamageInstance playerMeleeAttack(Player damager, Entity damaged, ItemStack weapon, JirocraftPlugin plugin) {
+        Boolean crit = isCritical(damager);
         Random r = new Random();
 
         RpgPlayer rpgPlayer = RpgPlayer.getRpgPlayer(damager, plugin);
         int weapon_damage = 10;
         if (weapon != null) weapon_damage = getWeaponDamage(weapon, plugin, r);
-        int damage = getAttackDamage(weapon_damage, rpgPlayer, damaged, plugin, r, args);
-        finalDamage = (double) damage / 25;
-        return finalDamage;
+        return getAttackDamage(weapon_damage, rpgPlayer, damaged, plugin, r, crit);
     }
 
     public static int getWeaponDamage(ItemStack weapon, JirocraftPlugin plugin, Random r) {
@@ -43,19 +57,19 @@ public class CombatManager {
         return damage;
     }
 
-    public static int getAttackDamage(int damage, RpgPlayer attacker, Entity defender, JirocraftPlugin plugin, Random r, String... args) {
-        List<String> tags = Arrays.asList(args);
+    public static DamageInstance getAttackDamage(int damage, RpgPlayer attacker, Entity defender, JirocraftPlugin plugin, Random r, Boolean crit) {
+        DamageInstance di = new DamageInstance();
         int final_damage = damage;
         float physical_power = attacker.getStats().getOrDefault("physical_power", 0F);
         float crit_chance = attacker.getStats().getOrDefault("crit_chance", 0F);
         float crit_damage = attacker.getStats().getOrDefault("crit_damage", 0F);
 
         float physical_pen = attacker.getStats().getOrDefault("physical_pen", 0F);
-        float physical_lethality = attacker.getStats().getOrDefault("physical_lethality", 0F);
+        float physical_lethality = attacker.getStats().getOrDefault("phys_lethality", 0F);
 
         // Critical attacks in Minecraft (attacking while falling) increase your crit chance by 30
-        if (tags.contains("crit")) {
-            crit_chance += 30f;
+        if (crit) {
+            crit_chance += 40f;
         }
 
         // Convert extra crit chance (above 100) into crit damage, at 50% ratio
@@ -69,6 +83,7 @@ public class CombatManager {
         // does it crit?
         if (r.nextInt(100) < crit_chance) {
             attack_multiplier += crit_damage/100;
+            di.crit = true;
         }
 
         // Get the final damage DEALT
@@ -92,7 +107,9 @@ public class CombatManager {
         if (final_defense >= 0F) final_damage = Math.round(final_damage * (100 / (100 + final_defense)));
         else final_damage = Math.round(final_damage * (2 - (100 / (100 - final_defense))));
 
-        return final_damage;
+        di.damage = final_damage;
+
+        return di;
     }
 
 }

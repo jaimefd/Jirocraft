@@ -1,0 +1,36 @@
+- Finish health/damage system (without elements) - DONE!
+- Update plugin to 1.19
+
+- Custom stats in entities (without elements)
+
+- Custom items (item types, rarities, drops)
+- Custom stats in items
+- Custom enchantments in items
+
+- Finish combat system (with elements)
+
+- Zone System (and custom map to visualize them + favourite ore)
+
+- Rework ore implementation (configurable, like items)
+- Hidden ores
+
+- Custom drops system
+
+- Custom mobs spawning
+
+- New GUIs (enchanting, refining, reinforcing) + Refining system
+- Reinforcement system
+- Item leveling system
+
+- Design stats for each material
+- Design ore and resource spawning
+- Design mobs and drops
+
+- Player leveling system
+- MineDex system
+- Mastery system
+- Style system
+
+- Main GUI
+
+- Base claiming system + New buildings with upgrades
