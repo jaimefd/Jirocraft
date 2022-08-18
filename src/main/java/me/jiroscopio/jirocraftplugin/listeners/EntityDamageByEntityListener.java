@@ -5,6 +5,8 @@ import me.jiroscopio.jirocraftplugin.managers.CombatManager;
 import org.apache.commons.lang.WordUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
+import org.bukkit.attribute.Attribute;
+import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -45,7 +47,17 @@ public class EntityDamageByEntityListener implements Listener {
                             if (leName != null) {
                                 if (leName.endsWith("❤")) {
                                     int new_health = (int) Math.round(le.getHealth() * 25);
-                                    String health_name = "§b" + new_health + "/" + leName.split("/")[1];
+                                    AttributeInstance max_health_attr = le.getAttribute(Attribute.GENERIC_MAX_HEALTH);
+                                    String health_name = "§b" + new_health + "/";
+                                    if (max_health_attr == null)
+                                        health_name += leName.split("/")[1];
+                                    else {
+                                        int max_health = (int) Math.round(max_health_attr.getValue() * 25);
+                                        System.out.println("New hp: " + new_health + " Max hp: " +  max_health + " Division: " + ((double)new_health/max_health));
+                                        if (((double)new_health/max_health) < 0.2) health_name += max_health + "§4❤";
+                                        else if (((double)new_health/max_health) < 0.5) health_name += max_health + "§e❤";
+                                        else health_name += max_health + "§a❤";
+                                    }
                                     String mob_name = "§b§l Lv.1 " + ChatColor.GOLD + WordUtils.capitalize(le.getType().toString().replace('_', ' ').toLowerCase());
                                     le.setCustomName(mob_name + " " + ChatColor.RESET + health_name);
                                     //if (le.getHealth() <= 0) pass.remove();

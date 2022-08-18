@@ -3,6 +3,7 @@ package me.jiroscopio.jirocraftplugin.listeners;
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
 import org.apache.commons.lang.WordUtils;
 import org.bukkit.ChatColor;
+import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -19,6 +20,7 @@ public class CreatureSpawnListener implements Listener {
     @EventHandler
     public void onCreatureSpawn(CreatureSpawnEvent e) {
         LivingEntity le = e.getEntity();
+        if (le.getType().equals(EntityType.ARMOR_STAND)) return;
 
         int actual_health = (int) Math.round(le.getHealth() * 25);
         //int max_health = (int) Math.round(Objects.requireNonNull(le.getAttribute(Attribute.GENERIC_MAX_HEALTH)).getValue() * 25);
