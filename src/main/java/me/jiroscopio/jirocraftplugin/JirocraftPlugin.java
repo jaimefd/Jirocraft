@@ -72,6 +72,7 @@ public final class JirocraftPlugin extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new PlayerDropItemListener(this), this);
         getServer().getPluginManager().registerEvents(new InventoryClickListener(this), this);
         getServer().getPluginManager().registerEvents(new PlayerItemHeldListener(this), this);
+        getServer().getPluginManager().registerEvents(new EntityDamageListener(this), this);
         getServer().getPluginManager().registerEvents(new EntityDamageByEntityListener(this), this);
         getServer().getPluginManager().registerEvents(new CreatureSpawnListener(this), this);
         getServer().getPluginManager().registerEvents(new EntityDeathListener(this), this);

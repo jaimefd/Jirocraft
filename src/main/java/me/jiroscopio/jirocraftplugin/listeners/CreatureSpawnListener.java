@@ -1,7 +1,7 @@
 package me.jiroscopio.jirocraftplugin.listeners;
 
 import me.jiroscopio.jirocraftplugin.JirocraftPlugin;
-import org.apache.commons.lang.WordUtils;
+import org.apache.commons.text.WordUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
